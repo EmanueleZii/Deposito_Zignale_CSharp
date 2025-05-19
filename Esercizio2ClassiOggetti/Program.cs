@@ -11,6 +11,10 @@ public class Persona
         this.Cognome = Cognome;
         this.AnnoNascita = AnnoNascita;
     }
+    public override string ToString()
+    {
+        return $"Nome: {Nome}, Cognome: {Cognome}, Anno di Nascita: {AnnoNascita}";
+    }
 }
 
 public class Program
@@ -19,7 +23,7 @@ public class Program
         Persona persona1 = null;
         Persona persona2 = null;
         Console.WriteLine("Benvenuto nel programma di gestione delle persone!");
-        int person = 0;
+        int person = 1;
         
         while (person <= 2){
 
@@ -31,12 +35,15 @@ public class Program
             Console.Write("Anno di nascita: ");
             int annoNascita = int.Parse(Console.ReadLine());
 
-            if (person == 1) {
-                persona1 = new Persona { Nome = nome, Cognome = cognome, AnnoNascita = annoNascita };
-                Console.WriteLine("\n Nome e cognome della persona 1: " + persona1.Nome + " " + persona1.Cognome + " Data Di Nascita " + persona1.AnnoNascita);
-            } else if (person == 2) {
-                persona2 = new Persona { Nome = nome, Cognome = cognome, AnnoNascita = annoNascita };
-                Console.WriteLine("\n Nome e cognome della persona 1: " + persona2.Nome + " " + persona2.Cognome + " Data Di Nascita " + persona2.AnnoNascita);
+            if (person == 1)
+            {
+                persona1 = new Persona(nome, cognome, annoNascita); 
+                Console.WriteLine("\n" + persona1.ToString());
+            }
+            else if (person == 2)
+            {
+                persona2 = new Persona(nome, cognome, annoNascita); 
+                Console.WriteLine("\n" + persona2.ToString());
             }
 
             person++;
