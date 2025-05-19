@@ -1,15 +1,13 @@
 ﻿using System;
 /* 19 maggio 2025 */
-class Operazioni
+public class Operazioni
 {
     // Metodo principale
-    static void Main(string[] args)
-    {
+    public static void Main(string[] args) {
         Menu();
     }
 
-    static void Menu()
-    {
+    static void Menu() {
         Console.WriteLine("Benvenuto nel programma di calcolo!");
         Console.WriteLine("Inserisci il primo numero:");
         int num1 = Convert.ToInt32(Console.ReadLine());
@@ -36,20 +34,17 @@ class Operazioni
         }
     }
 
-    static void Somma(int a, int b)
-    {
+    static void Somma(int a, int b) {
         int somma = a + b;
         StampaRisultato("Somma", somma);
     }
 
-    static void Moltiplicazione(int a, int b)
-    {
+    static void Moltiplicazione(int a, int b) {
         int moltiplicazione = a * b;
         StampaRisultato("Moltiplicazione", moltiplicazione);
     }
     
-    static void Divisione(int a, int b)
-    {
+    static void Divisione(int a, int b) {
         try
         {
             int divisione = a / b;

@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/bin/Debug/net8.0/PrimaClasse
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/bin/Debug/net8.0/PrimaClasse.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/bin/Debug/net8.0/PrimaClasse.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/bin/Debug/net8.0/PrimaClasse.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/bin/Debug/net8.0/PrimaClasse.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/refint/PrimaClasse.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/PrimaClasse.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaClasse/obj/Debug/net8.0/ref/PrimaClasse.dll
