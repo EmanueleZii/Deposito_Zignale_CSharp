@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Programs
-build_property.ProjectDir = /Users/emanuele/Documents/WebDevProjects/c#/CorsoCsharp/
+build_property.ProjectDir = /Users/emanuele/Documents/WebDevProjects/CorsoCSharp/PrimaSettimana/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
