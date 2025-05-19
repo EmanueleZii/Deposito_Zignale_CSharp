@@ -1,0 +1,14 @@
+/Users/emanuele/Documents/WebDevProjects/c#/bin/Debug/net8.0/c#
+/Users/emanuele/Documents/WebDevProjects/c#/bin/Debug/net8.0/c#.deps.json
+/Users/emanuele/Documents/WebDevProjects/c#/bin/Debug/net8.0/c#.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/c#/bin/Debug/net8.0/c#.dll
+/Users/emanuele/Documents/WebDevProjects/c#/bin/Debug/net8.0/c#.pdb
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.dll
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/refint/c#.dll
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.pdb
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/c#.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/c#/obj/Debug/net8.0/ref/c#.dll
