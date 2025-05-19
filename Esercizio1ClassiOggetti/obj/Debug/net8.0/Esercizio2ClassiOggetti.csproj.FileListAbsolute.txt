@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/bin/Debug/net8.0/Esercizio2ClassiOggetti
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/bin/Debug/net8.0/Esercizio2ClassiOggetti.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/bin/Debug/net8.0/Esercizio2ClassiOggetti.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/bin/Debug/net8.0/Esercizio2ClassiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/bin/Debug/net8.0/Esercizio2ClassiOggetti.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/refint/Esercizio2ClassiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/Esercizio2ClassiOggetti.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio2ClassiOggetti/obj/Debug/net8.0/ref/Esercizio2ClassiOggetti.dll

@@ -1,48 +1,40 @@
 ﻿using System;
-/*19 maggio 2025 */
-public class Studente {
-    public string Nome;
-    public int Matricola;
-    public double MediaVoti;
 
-    public Studente(string nome, int matricola, double mediaVoti){
-        Nome = nome;
-        Matricola = matricola;
-        MediaVoti = mediaVoti;
-    }
+public class Persona
+{
+    public string Nome;
+    public string Cognome;
+    public int AnnoNascita;
 }
 
-public class Program {
-    
-    public static void Main(string[] args) {
-
-        Console.WriteLine("Benvenuto nel sistema di gestione studenti!");
-        Console.WriteLine("Iniziamo a creare i tuoi studenti.");
-        Studente studente1 = null;
-        Studente studente2 = null;
-        int student = 1;
-
-        while (student <= 2) {
-
-            Console.WriteLine($"Inserisci il nome dello studente {student}:");
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Persona persona1 = null;
+        Persona persona2 = null;
+        int person = 1;
+        while (person <= 2){
+            Console.WriteLine($"Inserisci i dati della persona {person}:");
+            Console.Write("Nome: ");
             string nome = Console.ReadLine();
+            Console.Write("Cognome: ");
+            string cognome = Console.ReadLine();
+            Console.Write("Anno di nascita: ");
+            int annoNascita = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Inserisci la matricola dello studente {student}:");
-            int matricola = int.Parse(Console.ReadLine());
+            if (person == 1)
+                persona1 = new Persona { Nome = nome, Cognome = cognome, AnnoNascita = annoNascita };
+            
+            else if (person == 2)
+                persona2 = new Persona { Nome = nome, Cognome = cognome, AnnoNascita = annoNascita };
+            
 
-            Console.WriteLine($"Inserisci la media voti dello studente {student}:");
-            double mediaVoti = double.Parse(Console.ReadLine());
+            person++;
 
-            if (student == 1)
-                studente1 = new Studente(nome, matricola, mediaVoti);
-            else if (student == 2)
-                studente2 = new Studente(nome, matricola, mediaVoti);
-
-            student++;
-
-            Console.WriteLine($"Studente creato con successo!");
         }
-        Console.WriteLine($"Nome: {studente1.Nome}, Matricola: {studente1.Matricola}, Media Voti: {studente1.MediaVoti}");
-        Console.WriteLine($"Nome: {studente2.Nome}, Matricola: {studente2.Matricola}, Media Voti: {studente2.MediaVoti}");
+
+        Console.WriteLine("\n Nome e cognome della persona 1: " + persona1.Nome + " " + persona1.Cognome + " Data Di Nascita " + persona1.AnnoNascita);
+        Console.WriteLine("\n Nome e cognome della persona 1: " + persona2.Nome + " " + persona2.Cognome + " Data Di Nascita " + persona2.AnnoNascita);
     }
 }
