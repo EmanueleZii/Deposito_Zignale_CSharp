@@ -21,20 +21,16 @@ public class Program {
 
             // somma voto
             somma += voti[i];
-            // calcolo della media
-            // media = somma / numero di voti
-            media = somma / (i + 1);
 
             // calcolo del voto più alto e più basso
             if (voti[i] < min)
                 min = voti[i];
             if (voti[i] > max)
                 max = voti[i];
-            // stampa dei voti
-            Console.WriteLine($"Somma: {somma}");
-            Console.WriteLine($"Media dei voti: {media}");
         }
-        // stampa dei voti max e min
+        media = somma / voti.Length;
+        // stampa dei voti max e min e media
+        Console.WriteLine($"Media dei voti: {media}");
         Console.WriteLine($"\nVoto più basso: {min}");
         Console.WriteLine($"Voto più alto: {max}");
     }
