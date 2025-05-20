@@ -3,6 +3,7 @@
 <h2>Programma Didattico</h2>
 
 <h3>Introduzione e setup dell’ambiente di sviluppo</h3>
+<span>(Prima Settimana)</span>
 <ul>
   <li>Installazione di .NET SDK e IDE (Visual Studio / Visual Studio Code / Rider)</li>
   <li>Panoramica dei progetti C# (console, libreria, ecc.)</li>
@@ -10,6 +11,7 @@
 </ul>
 
 <h3>Fondamenti del linguaggio</h3>
+<span>(Prima Settimana)</span>
 <ul>
   <li>Tipi di dati primitivi (int, double, bool, char, string)</li>
   <li>Dichiarazione e inizializzazione delle variabili</li>
@@ -18,6 +20,7 @@
 </ul>
 
 <h3>Strutture di controllo</h3>
+<span>(Prima Settimana)</span>
 <ul>
   <li>Strutture condizionali (if, else if, switch)</li>
   <li>Cicli iterativi (for, while, do-while, foreach)</li>
@@ -25,6 +28,7 @@
 </ul>
 
 <h3>Funzioni e metodi</h3>
+<span>(Prima Settimana)</span>
 <ul>
   <li>Dichiarazione e definizione di metodi (return type, nome, parametri)</li>
   <li>Parametri valore vs riferimento (ref, out)</li>
@@ -41,6 +45,7 @@
 </ul>
 
 <h3>Programmazione Orientata agli Oggetti (OOP) – Parte I</h3>
+<span>(Seconda Settimana)</span>
 <ul>
   <li>Classi e oggetti: definizione e istanziazione</li>
   <li>Costruttori (predefiniti e personalizzati)</li>
@@ -49,6 +54,7 @@
 </ul>
 
 <h3>Programmazione Orientata agli Oggetti (OOP) – Parte II</h3>
+<span>(Seconda Settimana)</span>
 <ul>
   <li>Ereditarietà: classi base e classi derivate, uso di <code>base</code></li>
   <li>Polimorfismo: metodi <code>virtual</code>, <code>override</code>, <code>abstract</code> e <code>sealed</code></li>
