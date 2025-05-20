@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/bin/Debug/net8.0/Esercizio5Auto
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/bin/Debug/net8.0/Esercizio5Auto.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/bin/Debug/net8.0/Esercizio5Auto.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/bin/Debug/net8.0/Esercizio5Auto.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/bin/Debug/net8.0/Esercizio5Auto.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/refint/Esercizio5Auto.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/Esercizio5Auto.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio5Auto/obj/Debug/net8.0/ref/Esercizio5Auto.dll
