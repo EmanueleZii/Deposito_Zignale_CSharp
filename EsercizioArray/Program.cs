@@ -1,9 +1,15 @@
 ﻿using System;
 
-public class Program {
+public class Program
+{
     public static void Main(string[] args)
     {
-        // Esercizio 1
+       
+    }
+
+    public static void EsercizioArray()
+    { 
+         // Esercizio 1
         //variabili
         int[] voti = new int[5];
         int somma = 0;
