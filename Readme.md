@@ -37,6 +37,7 @@
 </ul>
 
 <h3>Array e collezioni</h3>
+<span>(Seconda Settimana)</span>
 <ul>
   <li>Array monodimensionali e multidimensionali</li>
   <li>Liste (<code>List&lt;T&gt;</code>), code (<code>Queue&lt;T&gt;</code>), stack (<code>Stack&lt;T&gt;</code>), dizionari (<code>Dictionary&lt;TKey, TValue&gt;</code>)</li>

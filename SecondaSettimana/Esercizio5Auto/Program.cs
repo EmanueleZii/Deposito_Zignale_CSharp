@@ -1,41 +1,41 @@
 ﻿using System;
 
-public class Program
-{
+public class Program {
     public static void Main(string[] args)
     {
         Menu();
     }
 
     public static void Menu() {
-            Utente utente = null;
-            string motoreModificato = "";
-            float velocitaMacModificata = 0;
-            int sospensioniMaxModificate = 0;
-            int nrModifiche = 0;
-            string nomeUtente = "";
-            int creditoUtente = 0;
-            bool isloged = false;
-            if (isloged == false) {
-                Console.WriteLine("Inserisci il nome dell'utente:");
-                nomeUtente = Console.ReadLine();
-                Console.WriteLine("Inserisci il credito dell'utente:");
-                creditoUtente = int.Parse(Console.ReadLine());
-                utente = new Utente(nomeUtente, creditoUtente);
-                Console.WriteLine($"Utente creato: {utente.Nome} con credito {utente.Credito}");
-                isloged = true;
-            }
-            Console.WriteLine("1. Modifica Macchina");
-            Console.WriteLine("2. Credito Disponibile");
-            Console.WriteLine("3. Esci");
-            Console.Write("Seleziona un'opzione: ");
-            string input = Console.ReadLine();
-        if (isloged == true) {
-            switch (input) {
+        Utente utente = null;
+        string motoreModificato = "";
+        float velocitaMacModificata = 0;
+        int sospensioniMaxModificate = 0;
+        int nrModifiche = 0;
+        string nomeUtente = "";
+        int creditoUtente = 0;
+        bool isloged = false;
+        if (isloged == false)
+        {
+            Console.WriteLine("Inserisci il nome dell'utente:");
+            nomeUtente = Console.ReadLine();
+            Console.WriteLine("Inserisci il credito dell'utente:");
+            creditoUtente = int.Parse(Console.ReadLine());
+            utente = new Utente(nomeUtente, creditoUtente);
+            Console.WriteLine($"Utente creato: {utente.Nome} con credito {utente.Credito}");
+            isloged = true;
+        }
+        Console.WriteLine("1. Modifica Macchina");
+        Console.WriteLine("2. Credito Disponibile");
+        Console.WriteLine("3. Esci");
+        Console.Write("Seleziona un'opzione: ");
+        string input = Console.ReadLine();
+        if (isloged == true)
+        {
+            switch (input)
+            {
                 case "1":
-                    Console.WriteLine("Modifica Macchina:");
                     ModificaMacchina(utente.Credito, nrModifiche, motoreModificato, velocitaMacModificata, sospensioniMaxModificate);
-                    Macchina auto = new Macchina(motoreModificato, velocitaMacModificata, sospensioniMaxModificate);
                     break;
                 case "2":
                     Console.WriteLine($"Credito disponibile: {utente.Credito}");
@@ -47,11 +47,17 @@ public class Program
                     Console.WriteLine("Opzione non valida. Riprova.");
                     break;
             }
+
+            Macchina auto = new Macchina(motoreModificato, velocitaMacModificata, sospensioniMaxModificate);
+            Console.WriteLine($"Macchina creata: {auto.Motore} con velocità {auto.VelocitaMac} e sospensioni {auto.SospensioniMax}");
+            Console.WriteLine($"Numero di modifiche: {auto.nrModifiche}");
         }
     }
     
     public static void ModificaMacchina(int crediti, int nrModifiche = 0, string motoreModificato = "", float velocitaMacModificata = 0, int sospensioniMaxModificate = 0) {
-        while (crediti > 0) {
+        bool isloged = true;
+        while (crediti > 0)
+        {
             Console.WriteLine("Modifica Macchina:");
             Console.WriteLine("1. Modifica Motore");
             Console.WriteLine("2. Modifica Velocità");
@@ -60,8 +66,8 @@ public class Program
 
             Console.Write("Seleziona un'opzione: ");
             string scelta = Console.ReadLine();
-
-            switch (scelta) {
+            switch (scelta)
+            {
                 case "1":
                     Console.WriteLine("Inserisci il nuovo motore:");
                     motoreModificato = Console.ReadLine();
@@ -83,21 +89,12 @@ public class Program
                     nrModifiche++;
                     crediti--;
                     break;
-                case "4":
-                    Console.WriteLine($"Modifiche effettuate: {nrModifiche}");
-                    Console.WriteLine($"Credito rimanente: {crediti}");
-                    Console.WriteLine($"Motore: {motoreModificato}");
-                    Console.WriteLine($"Velocità: {velocitaMacModificata}");
-                    Console.WriteLine($"Sospensioni: {sospensioniMaxModificate}");
-                    Console.WriteLine($"Numero di modifiche: {nrModifiche}");
-                    Menu();
-                    break;
                 default:
                     Console.WriteLine("Opzione non valida. Riprova.");
                     break;
             }
             if (crediti <= 0) {
-                Console.WriteLine("Credito esaurito. Non puoi effettuare ulteriori modifiche.");
+                Console.WriteLine("Credito esaurito.");
                 Menu();
             }
         }
