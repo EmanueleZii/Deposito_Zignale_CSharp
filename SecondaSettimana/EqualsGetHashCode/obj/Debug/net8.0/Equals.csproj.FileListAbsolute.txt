@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/bin/Debug/net8.0/Equals
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/bin/Debug/net8.0/Equals.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/bin/Debug/net8.0/Equals.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/bin/Debug/net8.0/Equals.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/bin/Debug/net8.0/Equals.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/refint/Equals.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/Equals.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Equals/obj/Debug/net8.0/ref/Equals.dll

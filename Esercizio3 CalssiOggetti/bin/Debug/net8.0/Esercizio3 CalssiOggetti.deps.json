@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Esercizio3 CalssiOggetti/1.0.0": {
+        "runtime": {
+          "Esercizio3 CalssiOggetti.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Esercizio3 CalssiOggetti/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

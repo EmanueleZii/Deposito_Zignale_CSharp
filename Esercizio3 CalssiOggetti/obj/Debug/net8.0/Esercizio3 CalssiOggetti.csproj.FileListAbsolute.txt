@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/bin/Debug/net8.0/Esercizio3 CalssiOggetti
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/bin/Debug/net8.0/Esercizio3 CalssiOggetti.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/bin/Debug/net8.0/Esercizio3 CalssiOggetti.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/bin/Debug/net8.0/Esercizio3 CalssiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/bin/Debug/net8.0/Esercizio3 CalssiOggetti.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/refint/Esercizio3 CalssiOggetti.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/Esercizio3 CalssiOggetti.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio3 CalssiOggetti/obj/Debug/net8.0/ref/Esercizio3 CalssiOggetti.dll
