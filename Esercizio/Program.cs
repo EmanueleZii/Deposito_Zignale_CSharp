@@ -111,18 +111,23 @@ public class Program
     }
 }
 
-public class Film {
-    public string Titolo = "",Diretto = "", Genere = "";
+public class Film
+{
+    // Attributi
+    public string Titolo = "", Diretto = "", Genere = "";
     public int Anno = 0;
     // Costruttore
-    public Film(string title, string director, int year, string genere) {
+    public Film(string title, string director, int year, string genere)
+    {
         this.Titolo = title;
         this.Diretto = director;
         this.Anno = year;
         this.Genere = genere;
     }
 
-    public override string ToString() {
+    // Override del metodo ToString per stampare i dettagli del film
+    public override string ToString()
+    {
         return $"{Titolo} ({Anno}) - Diretto da {Diretto}, Genere: {Genere}";
     }
 }
