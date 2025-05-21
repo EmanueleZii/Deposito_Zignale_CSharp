@@ -83,7 +83,6 @@ public class Program
         
         // Stampa i film per genere
         foreach (Film f in film) {
-
             // Confronta il genere del film con quello inserito dall'utente
             if (f.Genere.Trim() == genere.Trim().ToLower()) {
                 Console.WriteLine(f.ToString());
@@ -114,11 +113,8 @@ public class Program
 }
 
 public class Film {
-    public string Titolo = "";
-    public string Diretto = "";
+    public string Titolo = "",Diretto = "", Genere = "";
     public int Anno = 0;
-    public string Genere = "";
-
     // Costruttore
     public Film(string title, string director, int year, string genere) {
         this.Titolo = title;
