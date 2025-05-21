@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/bin/Debug/net8.0/Esercizio
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/bin/Debug/net8.0/Esercizio.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/bin/Debug/net8.0/Esercizio.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/bin/Debug/net8.0/Esercizio.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/bin/Debug/net8.0/Esercizio.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/refint/Esercizio.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/Esercizio.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizio/obj/Debug/net8.0/ref/Esercizio.dll
