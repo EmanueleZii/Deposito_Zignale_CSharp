@@ -21,11 +21,10 @@ public class Program
         Console.WriteLine("4. Esci");
         // Prende la scelta dell'utente
         int scelta = int.Parse(Console.ReadLine());
+
         // scelta dell'utente
         if (scelta <= 0)
-            Console.WriteLine("Scelta non valida, riprova.");
-        if (scelta > 4)
-            Console.WriteLine("Scelta non valida, riprova.");
+            Console.WriteLine("Scelta non valida, riprova.");    
         switch (scelta)
         {
             case 1:
