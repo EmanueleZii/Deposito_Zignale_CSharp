@@ -3,9 +3,8 @@
 public class Veicolo {
     
     public string Marca, Modello;
-    
-    public Veicolo(string marca, string modello)
-    {
+
+    public Veicolo(string marca, string modello){
         Marca = marca;
         Modello = modello;
     }
@@ -25,14 +24,14 @@ public class Auto : Veicolo {
     public int NumPorte(int numeroPorte) {
         return numeroPorte;
     }
-    public override string StampaInfo(string info)
-    {
+    public override string StampaInfo(string info) {
+        
         return $"Auto - {base.StampaInfo(info)}, Numero Porte: {NumeroPorte}";
     }
 }
 public class Moto : Veicolo {
     public bool HaPortapacchi;
-    
+
     public Moto(string marca, string modello, bool haPortapacchi) : base(marca, modello)
     {
         HaPortapacchi = haPortapacchi;
