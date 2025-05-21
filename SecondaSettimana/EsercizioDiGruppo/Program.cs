@@ -20,17 +20,17 @@ public class Corso
 
     public virtual void MetodoSpeciale()
     {
-        Console.WriteLine("Messaggio generico....");
+        Console.WriteLine("Messaggio generico");
     }
-
 }
 
 public class Programms
 {
     static List<Corso> corsi = new List<Corso>();
-    public static void Main()
-    {
+    public static void Main() {
+
         int scelta = 0;
+
         do
         {
             Console.WriteLine("[1] Aggiungi un corso di Musica");
@@ -44,9 +44,10 @@ public class Programms
             Console.Write("Scelta: ");
             scelta = int.Parse(Console.ReadLine());
 
-            switch (scelta) {
+            switch (scelta)
+            {
                 case 1:
-                    //AggiungiCorsoMusica();
+                    
                     break;
                 case 2:
                     //AggiungiCorsoPittura();
@@ -71,5 +72,48 @@ public class Programms
                     break;
             }
         } while (scelta != 0);
+    }
+}
+
+public class CorsoMusica : Corso
+{
+    public string Strumento;
+
+    public override string ToString()
+    {
+        return $"Corso: {NomeCorso}, Durata: {DurataOre} ore, Docente: {Docente}, Studenti: {string.Join(", ", Studenti)}, Tecnica: {Strumento}";
+    }
+    public override void MetodoSpeciale()
+    {
+        Console.WriteLine($"Si tiene una prova pratica dello strumento: {Strumento}");
+    }
+}
+
+class CorsoDiDanza : Corso
+{
+    public string StileDanza;
+    public override string ToString()
+    {
+        return $"Corso: {NomeCorso}, Durata: {DurataOre} ore, Docente: {Docente}, Studenti: {string.Join(", ", Studenti)}, Tecnica: {StileDanza}";
+
+    }
+    public override void MetodoSpeciale()
+    {
+        Console.WriteLine($"Questo è un corso di danza di stile {StileDanza}. Muoviti a ritmo!");
+    }
+}
+
+public class CorsoPittura : Corso
+{
+    public string Tecnica;
+
+    public override string ToString()
+    {
+        return $"Corso: {NomeCorso}, Durata: {DurataOre} ore, Docente: {Docente}, Studenti: {string.Join(", ", Studenti)}, Tecnica: {Tecnica}";
+    }
+
+    public override void MetodoSpeciale()
+    {
+        Console.WriteLine($"Si lavora su una tela con tecnica: {Tecnica}");
     }
 }
