@@ -1,5 +1,20 @@
 ﻿/*
 Sono  raggruppati in un'unica classe i metodi che sono stati creati per gli esercizi di programmazione.
+Gli Argomenti Trattati sono:
+    - Installazione di .NET SDK e IDE (Visual Studio / Visual Studio Code / Rider)
+    -Panoramica dei progetti C# (console, libreria, ecc.)
+    -Struttura base di un programma C# (metodo Main, namespace, ecc.)
+    -Tipi di dati primitivi (int, double, bool,   char, string)
+    -Dichiarazione e inizializzazione delle variabili
+    Operatori (aritmetici, logici, di confronto, di assegnazione)
+    -Conversioni implicite ed esplicite (casting)
+    -Strutture condizionali (if, else if, switch)
+    -Cicli iterativi (for, while, do-while, foreach)
+    -Buone pratiche sull’indentazione e sulla leggibilità del codice
+    -Dichiarazione e definizione di metodi (return type, nome, parametri)
+    -Parametri valore vs riferimento (ref, out)
+    Overloading dei metodi
+    -Visibilità e ambiti delle variabili
 */
 class Programs
 {
@@ -135,7 +150,6 @@ class Programs
         }
         Console.WriteLine($"Il carattere {carattere} è presente nella frase {contatore} volte");
     }
-
     static void ElaboraStudente(ref int voto1, ref int voto2, ref string nome, out int media)
     {
         Console.WriteLine("Elabora studente");
@@ -1040,7 +1054,5 @@ class Programs
         else
             Console.WriteLine("Scelta non valida");
     }
-
-
 
 }
