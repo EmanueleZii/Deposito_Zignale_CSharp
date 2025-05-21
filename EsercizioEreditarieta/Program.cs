@@ -1,9 +1,11 @@
 ﻿using System;
 
 public class Veicolo {
+    
     public string Marca, Modello;
-
-    public Veicolo(string marca, string modello) {
+    
+    public Veicolo(string marca, string modello)
+    {
         Marca = marca;
         Modello = modello;
     }
