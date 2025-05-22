@@ -26,14 +26,20 @@ public class Gatto : Animale
 
 public class Programs
 { 
-    public static void Main(string[] args)
-    {
+    public static void Main() {
+
+        // Creazione di un oggetto di tipo Animale
         List<Animale> animali = new List<Animale>();
+
         animali.Add(new Cane());
         animali.Add(new Gatto());
+        // Creazione di un oggetto di tipo Cane
+        Cane cane = new Cane();
 
-        foreach (var animale in animali)
-        {
+        if (cane is Animale)
+            Console.WriteLine("Il cane è un animale");
+        
+        foreach (var animale in animali) {
             animale.FaiVerso();
         }
     }
