@@ -8,37 +8,29 @@ public class Soldato {
     public string Nome { get; set; }
     public string Grado {get; set;}
     public int AnniDiServizio { get; set; }
-
-    public Soldato(string nome, string grado, int annidiservizio)
-    {
+    public Soldato(string nome, string grado, int annidiservizio){
         Nome = nome;
         Grado = grado;
         AnniDiServizio = annidiservizio;
     }
-    
     public virtual void Descrizione() {
         Console.WriteLine($"Nome: {Nome}, Grado: {Grado}, Anni di Servizio: {AnniDiServizio}");
     }
 }
-
 public class Fante : Soldato {
     private string arma;
     public string Arma { get; set; }
-
     public Fante(string nome, string grado, int annidiservizio, string arma) 
     : base(nome, grado, annidiservizio)
     {
         Arma = arma;
     }
-
     public override void Descrizione() {
         base.Descrizione();
         Console.WriteLine($"Arma: {Arma}");
     }
 }
-
-public class Artigliere : Soldato
-{
+public class Artigliere : Soldato{
     private int calibro;
     public int Calibro { get; set; }
     public Artigliere(string nome, string grado, int annidiservizio, int cali) 
@@ -46,19 +38,17 @@ public class Artigliere : Soldato
     {
         this.Calibro = cali;
     }
-
-    public override void Descrizione()
-    {
+    public override void Descrizione() {
         base.Descrizione();
         Console.WriteLine($"Specializzazione: {calibro}");
     }
 }
-
 public class Program {
 
     // Main method
     // Entry point of the program
     public static void Main() {
+
         List<Soldato> soldati = new List<Soldato>();
 
         Fante fante = null;
@@ -71,7 +61,9 @@ public class Program {
         int calibro = 0;
         bool continua = true;
         int scelta = 0;
+
         Console.WriteLine("Benvenuto nel programma di gestione soldati.");
+
         while (continua) {
             Menu();
             scelta = int.Parse(Console.ReadLine());
@@ -96,16 +88,12 @@ public class Program {
             }
         }
     }
-
-    public static void StampaSoldati(List<Soldato> soldati)
-    {
-        foreach (var soldato in soldati)
-        {
+    public static void StampaSoldati(List<Soldato> soldati) {
+        foreach (var soldato in soldati) {
             soldato.Descrizione();
         }
     }
-    public static void AggiungiArtigliere(Artigliere artigliere, List<Soldato> soldati)
-    {
+    public static void AggiungiArtigliere(Artigliere artigliere, List<Soldato> soldati) {
         Console.Write("Nome: ");
         string nome = Console.ReadLine();
         Console.Write("Grado: ");
@@ -117,7 +105,6 @@ public class Program {
         artigliere = new Artigliere(nome, grado, annidiservizio, calibro);
         soldati.Add(artigliere);
     }
-
     public static void AggiungiFante(Fante fante, List<Soldato> soldati) {
         Console.Write("Nome: ");
         string nome = Console.ReadLine();
@@ -130,7 +117,6 @@ public class Program {
         fante = new Fante(nome, grado, annidiservizio, arma);
         soldati.Add(fante);
     }
-
     public static void Menu() {
         Console.Write("Scegli un'opzione: ");
         Console.WriteLine("1. Aggiungi Fante");
@@ -138,5 +124,4 @@ public class Program {
         Console.WriteLine("3. Visualizza Soldati");
         Console.WriteLine("4. Esci");
     }
-
 }
