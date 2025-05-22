@@ -43,14 +43,12 @@ public class Soldato {
         AnniDiServizio = annidiservizio;
     }
     
-    public virtual void Descrizione()
-    {
+    public virtual void Descrizione() {
         Console.WriteLine($"Nome: {Nome}, Grado: {Grado}, Anni di Servizio: {AnniDiServizio}");
     }
 }
 
-public class Fante : Soldato
-{
+public class Fante : Soldato {
     private string arma;
     public string Arma { get; set; }
 
@@ -148,8 +146,7 @@ public class Program {
         soldati.Add(artigliere);
     }
 
-    public static void AggiungiFante(Fante fante, List<Soldato> soldati)
-    {
+    public static void AggiungiFante(Fante fante, List<Soldato> soldati) {
         Console.Write("Nome: ");
         string nome = Console.ReadLine();
         Console.Write("Grado: ");
@@ -163,8 +160,7 @@ public class Program {
     }
     
 
-    public static void Menu()
-    {
+    public static void Menu() {
         Console.Write("Scegli un'opzione: ");
         Console.WriteLine("1. Aggiungi Fante");
         Console.WriteLine("2. Aggiungi Artigliere");
