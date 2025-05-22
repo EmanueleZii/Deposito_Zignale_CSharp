@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/Polimorfismo.csproj",
+      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/Esempio/Polimorfismo.csproj",
       "projectName": "Polimorfismo",
-      "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/Polimorfismo.csproj",
+      "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/Esempio/Polimorfismo.csproj",
       "packagesPath": "/Users/emanuele/.nuget/packages/",
-      "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/obj/",
+      "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Polimorfismo/Esempio/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"

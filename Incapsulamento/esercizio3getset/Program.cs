@@ -30,7 +30,7 @@ public class Fante : Soldato {
         Console.WriteLine($"Arma: {Arma}");
     }
 }
-public class Artigliere : Soldato{
+public class Artigliere : Soldato {
     private int calibro;
     public int Calibro { get; set; }
     public Artigliere(string nome, string grado, int annidiservizio, int cali) 
@@ -67,8 +67,7 @@ public class Program {
         while (continua) {
             Menu();
             scelta = int.Parse(Console.ReadLine());
-            switch (scelta)
-            {
+            switch (scelta) {
                 case 1:
                     AggiungiFante(fante, soldati);
                     Console.Clear();
