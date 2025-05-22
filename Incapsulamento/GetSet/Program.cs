@@ -23,8 +23,7 @@ public class ContoBancario {
 
 public class Program
 {
-    public static void Main(string[] args)
-    {
+    public static void Main() {
         ContoBancario conto = new ContoBancario();
         conto.Nome = "Mario";
         conto.Cognome = "Rossi";
