@@ -21,9 +21,10 @@ public class ContoBancario {
     }
 }
 
-public class Program
-{
-    public static void Main() {
+public class Program {
+    // Metodo Main per testare la classe ContoBancario
+    public static void Main()
+    {
         ContoBancario conto = new ContoBancario();
         conto.Nome = "Mario";
         conto.Cognome = "Rossi";
@@ -32,7 +33,6 @@ public class Program
         Console.WriteLine($"Cognome: {conto.Cognome}");
         Console.WriteLine($"Saldo: {conto.Saldo}");
         conto.Saldo = -500.0; // Questo non cambierà il saldo
-        
     }
 
 }
