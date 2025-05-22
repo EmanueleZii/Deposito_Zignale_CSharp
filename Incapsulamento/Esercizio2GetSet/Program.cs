@@ -23,12 +23,10 @@ public class VoloAereo
 
     public void EffettuaPrenotazione(int numeroPosti)
     {
-        if (numeroPosti > (PostiLiberi - postiOccupati))
-        {
+        if (numeroPosti > (PostiLiberi - postiOccupati)) {
             Console.WriteLine("Non ci sono abbastanza posti disponibili.");
         }
-        else if (numeroPosti <= 0)
-        {
+        else if (numeroPosti <= 0) {
             Console.WriteLine("Il numero di posti deve essere maggiore di zero.");
         }
         else
@@ -64,6 +62,7 @@ public class Program
         bool continua = true;
         string codiceVolocliente = "";
 
+        // Creazione di uno oggetto VoloAereo se no si azzera il numero di postiOccupati
         VoloAereo volo = new VoloAereo();
 
         Console.WriteLine("Benvenuto nel sistema di prenotazione voli aerei.");
