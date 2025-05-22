@@ -6,19 +6,31 @@ public class Soldato
     private string nome;
     private string grado;
     private int annidiservizio;
-    public string Nome { get; set; }
-    public string Grado { get; set; }
+    public string Nome {
+        get { return nome;}
+        set {
+            if (nome != null)
+                nome = value;
+            else
+                Console.WriteLine("Nome non valido.");
+        }
+    }
+    public string Grado {
+        get { return grado; }
+        set {
+            if (grado != null)
+                grado = value;
+            else
+                Console.WriteLine("Grado non valido.");
+        }
+    }
     public int AnniDiServizio
     {
         get { return annidiservizio; }
-        set
-        {
+        set {
             if (AnniDiServizio > 0)
-            {
                 annidiservizio = value;
-            }
-            else
-            {
+            else{
                 Console.WriteLine("Anni di servizio non validi.");
                 annidiservizio = 0;
             }
@@ -71,37 +83,43 @@ public class Artigliere : Soldato
     }
 }
 
-
-public class Program
-{
-    public static void Main()
-    {
+public class Program {
+    public static void Main() {
         List<Soldato> soldati = new List<Soldato>();
+
         Fante fante = null;
         Artigliere artigliere = null;
-        string nome;
-        string grado;
-        string arma;
-        int annidiservizio;
-        int calibro;
+
+        string nome = "";
+        string grado = "";
+        string arma = "";
+        int annidiservizio = 0;
+        int calibro = 0;
         bool continua = true;
+        int scelta = 0;
+        Console.WriteLine("Benvenuto nel programma di gestione soldati.");
         while (continua)
         {
             Menu();
-            int scelta = int.Parse(Console.ReadLine());
+            scelta = int.Parse(Console.ReadLine());
             switch (scelta)
             {
                 case 1:
                     AggiungiFante(fante, soldati);
+                    Console.Clear();
                     break;
                 case 2:
                     AggiungiArtigliere(artigliere, soldati);
+                    Console.Clear();
                     break;
                 case 3:
+                    Console.Clear();
                     Console.WriteLine("Lista Soldati:");
-                    StampaSoldati(soldati);                    
+                    StampaSoldati(soldati);
                     break;
                 default:
+                    continua = false;
+                    Console.Clear();
                     Console.WriteLine("Scelta non valida. Riprova.");
                     break;
             }
