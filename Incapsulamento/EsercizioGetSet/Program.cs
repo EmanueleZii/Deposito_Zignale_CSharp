@@ -31,23 +31,19 @@ public class Prenotazione {
 
     public int AnnullaPrenotazione(int postiannullati)
     {
-        if (postiannullati > PostiPrenotati)
-        {
+        if (postiannullati > PostiPrenotati){
             Console.WriteLine("Non puoi annullare più posti di quelli prenotati.");
             return PostiPrenotati;
         }
-        else if (postiannullati < 0)
-        {
+        else if (postiannullati < 0) {
             Console.WriteLine("Il numero di posti da annullare deve essere maggiore di 0.");
             return PostiPrenotati;
         }
-        else if (PostiPrenotati == 0)
-        {
+        else if (PostiPrenotati == 0) {
             Console.WriteLine("Non hai prenotato nessun posto.");
             return PostiPrenotati;
         }
-        else
-        {
+        else{
             PostiPrenotati -= postiannullati;
             PostiDisponibili += postiannullati;
             Console.WriteLine("Prenotazione annullata.");
@@ -80,8 +76,8 @@ public class Program
             Console.WriteLine("3. Visualizza prenotazioni");
             Console.WriteLine("4. Esci");
             int scelta = int.Parse(Console.ReadLine());
-            switch (scelta)
-            {
+            switch (scelta) {
+
                 case 1:
                     Console.WriteLine("Inserisci la destinazione:");
                     prenotazione.Destinazione = Console.ReadLine().ToLower();
@@ -91,6 +87,7 @@ public class Program
                     prenota.Add(prenotazione);
                     Console.WriteLine("Prenotazione effettuata.");
                     break;
+
                 case 2:
                     Console.WriteLine("Prenotazione annullata.");
                     Console.WriteLine("Inserisci la destinazione della prenotazione da annullare:");
@@ -104,6 +101,7 @@ public class Program
                     int postiAnnullati = int.Parse(Console.ReadLine());
                     prenotazione.AnnullaPrenotazione(postiAnnullati);
                     break;
+
                 case 3:
                     Console.WriteLine("Visualizza prenotazioni:");
                     foreach (var p in prenota) {
@@ -112,6 +110,7 @@ public class Program
                         Console.WriteLine($"Posti disponibili: {p.postiDisponibili}");
                     }
                     break;
+
                 default:
                     Console.WriteLine("Opzione non valida.");
                     break;
