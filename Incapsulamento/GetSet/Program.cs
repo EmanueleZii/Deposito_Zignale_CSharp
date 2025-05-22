@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class ContoBancario
-{
+public class ContoBancario {
     public string Nome { get; set; }
     public string Cognome { get; set; }
     private double saldo;
-    public double Saldo{
+
+    // Proprietà per accedere al saldo
+    // con un controllo per evitare valori negativi
+    public double Saldo {
         get {
             return saldo;
         }
@@ -15,7 +17,6 @@ public class ContoBancario
                 Console.WriteLine("Il saldo non può essere negativo.");
             else
                 saldo = value;
-            
         }
     }
 }
