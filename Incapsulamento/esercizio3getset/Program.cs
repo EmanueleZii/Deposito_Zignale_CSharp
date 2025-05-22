@@ -5,36 +5,9 @@ public class Soldato {
     private string nome;
     private string grado;
     private int annidiservizio;
-    public string Nome {
-        get { return nome; }
-        set {
-            if (nome != null)
-                nome = value;
-            else
-                Console.WriteLine("Nome non valido.");
-        }
-    }
-    public string Grado {
-        get { return grado; }
-        set {
-            if (grado != null)
-                grado = value;
-            else
-                Console.WriteLine("Grado non valido.");
-        }
-    }
-    public int AnniDiServizio
-    {
-        get { return annidiservizio; }
-        set {
-            if (AnniDiServizio > 0)
-                annidiservizio = value;
-            else{
-                Console.WriteLine("Anni di servizio non validi.");
-                annidiservizio = 0;
-            }
-        }
-    }
+    public string Nome { get; set; }
+    public string Grado {get; set;}
+    public int AnniDiServizio { get; set; }
 
     public Soldato(string nome, string grado, int annidiservizio)
     {
@@ -52,7 +25,9 @@ public class Fante : Soldato {
     private string arma;
     public string Arma { get; set; }
 
-    public Fante(string nome, string grado, int annidiservizio, string arma) : base(nome, grado, annidiservizio) {
+    public Fante(string nome, string grado, int annidiservizio, string arma) 
+    : base(nome, grado, annidiservizio)
+    {
         Arma = arma;
     }
 
@@ -66,7 +41,8 @@ public class Artigliere : Soldato
 {
     private int calibro;
     public int Calibro { get; set; }
-    public Artigliere(string nome, string grado, int annidiservizio, int cali) : base(nome, grado, annidiservizio)
+    public Artigliere(string nome, string grado, int annidiservizio, int cali) 
+    : base(nome, grado, annidiservizio)
     {
         this.Calibro = cali;
     }
@@ -82,8 +58,7 @@ public class Program {
 
     // Main method
     // Entry point of the program
-    public static void Main()
-    {
+    public static void Main() {
         List<Soldato> soldati = new List<Soldato>();
 
         Fante fante = null;
@@ -97,8 +72,7 @@ public class Program {
         bool continua = true;
         int scelta = 0;
         Console.WriteLine("Benvenuto nel programma di gestione soldati.");
-        while (continua)
-        {
+        while (continua) {
             Menu();
             scelta = int.Parse(Console.ReadLine());
             switch (scelta)
@@ -112,8 +86,6 @@ public class Program {
                     Console.Clear();
                     break;
                 case 3:
-                    Console.Clear();
-                    Console.WriteLine("Lista Soldati:");
                     StampaSoldati(soldati);
                     break;
                 default:
@@ -158,7 +130,6 @@ public class Program {
         fante = new Fante(nome, grado, annidiservizio, arma);
         soldati.Add(fante);
     }
-    
 
     public static void Menu() {
         Console.Write("Scegli un'opzione: ");
