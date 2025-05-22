@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class Soldato
-{
+public class Soldato {
     private string nome;
     private string grado;
     private int annidiservizio;
     public string Nome {
-        get { return nome;}
+        get { return nome; }
         set {
             if (nome != null)
                 nome = value;
@@ -55,13 +54,11 @@ public class Fante : Soldato
     private string arma;
     public string Arma { get; set; }
 
-    public Fante(string nome, string grado, int annidiservizio, string arma) : base(nome, grado, annidiservizio)
-    {
+    public Fante(string nome, string grado, int annidiservizio, string arma) : base(nome, grado, annidiservizio) {
         Arma = arma;
     }
 
-    public override void Descrizione()
-    {
+    public override void Descrizione() {
         base.Descrizione();
         Console.WriteLine($"Arma: {Arma}");
     }
@@ -84,7 +81,11 @@ public class Artigliere : Soldato
 }
 
 public class Program {
-    public static void Main() {
+
+    // Main method
+    // Entry point of the program
+    public static void Main()
+    {
         List<Soldato> soldati = new List<Soldato>();
 
         Fante fante = null;
