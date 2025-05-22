@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/Incapsulamento.csproj": {}
+    "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/Incapsulamento.csproj": {}
   },
   "projects": {
-    "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/Incapsulamento.csproj": {
+    "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/Incapsulamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/Incapsulamento.csproj",
+        "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/Incapsulamento.csproj",
         "projectName": "Incapsulamento",
-        "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/Incapsulamento.csproj",
+        "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/Incapsulamento.csproj",
         "packagesPath": "/Users/emanuele/.nuget/packages/",
-        "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/obj/",
+        "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"

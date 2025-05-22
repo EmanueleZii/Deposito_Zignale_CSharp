@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/bin/Debug/net8.0/Incapsulamento
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/bin/Debug/net8.0/Incapsulamento.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/bin/Debug/net8.0/Incapsulamento.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/bin/Debug/net8.0/Incapsulamento.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/bin/Debug/net8.0/Incapsulamento.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/refint/Incapsulamento.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/Incapsulamento.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Incapsulamento/GetSet/obj/Debug/net8.0/ref/Incapsulamento.dll
