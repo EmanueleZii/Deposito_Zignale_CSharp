@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/bin/Debug/net8.0/ProgettoInGruppo
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/bin/Debug/net8.0/ProgettoInGruppo.deps.json
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/bin/Debug/net8.0/ProgettoInGruppo.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/bin/Debug/net8.0/ProgettoInGruppo.dll
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/bin/Debug/net8.0/ProgettoInGruppo.pdb
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.dll
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/refint/ProgettoInGruppo.dll
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.pdb
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ProgettoInGruppo.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/Debug/net8.0/ref/ProgettoInGruppo.dll

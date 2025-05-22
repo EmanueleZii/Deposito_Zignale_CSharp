@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/SecondaSettimana/Esercizio4Login/Esercizio4Login.csproj",
-      "projectName": "Esercizio4Login",
-      "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/SecondaSettimana/Esercizio4Login/Esercizio4Login.csproj",
+      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/ProgettoInGruppo.csproj",
+      "projectName": "ProgettoInGruppo",
+      "projectPath": "/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/ProgettoInGruppo.csproj",
       "packagesPath": "/Users/emanuele/.nuget/packages/",
-      "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/SecondaSettimana/Esercizio4Login/obj/",
+      "outputPath": "/Users/emanuele/Documents/WebDevProjects/gruppo/Esercizio_Corso_Csharp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"
