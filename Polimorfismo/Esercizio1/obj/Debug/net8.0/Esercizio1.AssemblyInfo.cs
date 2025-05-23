@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EsempioDiOverloading")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Esercizio1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0f2c366d0683f5ed6afef42a9a680a1d8a3dcb8")]
-[assembly: System.Reflection.AssemblyProductAttribute("EsempioDiOverloading")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EsempioDiOverloading")]
+[assembly: System.Reflection.AssemblyProductAttribute("Esercizio1")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Esercizio1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.

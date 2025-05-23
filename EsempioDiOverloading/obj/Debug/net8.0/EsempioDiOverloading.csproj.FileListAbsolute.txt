@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/bin/Debug/net8.0/EsempioDiOverloading
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/bin/Debug/net8.0/EsempioDiOverloading.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/bin/Debug/net8.0/EsempioDiOverloading.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/bin/Debug/net8.0/EsempioDiOverloading.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/bin/Debug/net8.0/EsempioDiOverloading.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/refint/EsempioDiOverloading.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/EsempioDiOverloading.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/EsempioDiOverloading/obj/Debug/net8.0/ref/EsempioDiOverloading.dll

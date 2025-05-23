@@ -13,47 +13,43 @@ public class Program {
             new Rettangolo() { Base = 10, Altezza = 20 }
             , new Cerchio(10)
         };
+        foreach (var forma in forme)
+        {
+            Console.WriteLine(forma.CalcolaArea());
+        }
+        if (forme is Forma)
+            Console.WriteLine("L'oggetto è un array di forme");
     }
 }
 
-public class Calcolatrice
-{
-    
+public class Calcolatrice {
     public int Somma(int a, int b) => a + b;
     public double Somma(double a, double b) => a + b;
     public int Somma(int a, int b, int c) => a + b + c;
-
 }
 
-public class Forma
-{
-    public virtual double CalcolaArea()
-    {
+public class Forma {
+    public virtual double CalcolaArea() {
         return 0;
     }
 }
 
-public class Rettangolo : Forma
-{
+public class Rettangolo : Forma {
     public double Base { get; set; }
     public double Altezza { get; set; }
 
-    public override double CalcolaArea()
-    {
+    public override double CalcolaArea(){
         return Base * Altezza;
     }
 }
-public class Cerchio : Forma
-{
+public class Cerchio : Forma {
     public double Raggio { get; set; }
 
-    public Cerchio(double raggio)
-    {
+    public Cerchio(double raggio) {
         Raggio = raggio;
     }
 
-    public override double CalcolaArea()
-    {
+    public override double CalcolaArea() {
         return Math.PI * Raggio * Raggio;
     }
 }
