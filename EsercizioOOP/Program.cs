@@ -1,19 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//classe padre Operatore
 public class Operatore
 {
     private string nome { get; set; }
     private string turno { get; set; }
-    public string Nome { get { return nome; } set { nome = value; } }
-    public string Turno { get { return turno; } set { turno = value; } }
+    public string Nome
+    {
+        get
+        {
+            return nome;
+        }
+        set
+        {
+            nome = value;
+        }
+    }
+    public string Turno
+    {
+        get
+        {
+            return turno;
+        }
+        set
+        {
+            turno = value;
+        }
+    }
 
     public virtual void EseguiCompito()
     {
         Console.WriteLine("Operatore generico in servizio.");
     }
 }
-
+//classe figlia OperatoreEmergenza
 public class OperatoreEmergenza : Operatore
 {
     private int livelloEmergenza;
@@ -41,6 +62,7 @@ public class OperatoreEmergenza : Operatore
         Console.WriteLine("Operatore di macchina in servizio.");
     }
 }
+//classe figlia OperatoreSicurezza
 public class OperatoreSicurezza : Operatore
 {
     private string AreaSorvegliata;
@@ -62,6 +84,7 @@ public class OperatoreSicurezza : Operatore
     }
 }
 
+//classe figlia OperatoreLogistica
 public class OpratoreLogitica : Operatore
 {
     private int NumeroConsegne;
@@ -83,23 +106,31 @@ public class OpratoreLogitica : Operatore
     }
 }
 
+//classe Program con metodo Main
 public class Program
 {
+    // Metodo Main
+    // Questo è il punto di ingresso principale per l'applicazione.
     public static void Main()
     {
-
+        // Creazione di variabili per gli operatori
+        // Queste variabili sono inizializzate a null e verranno assegnate più tardi.
         OperatoreEmergenza operatoreEmergenza = null;
         OperatoreSicurezza operatoreSicurezza = null;
         OpratoreLogitica operatoreLogistica = null;
         Operatore operatoreGenerico = null;
         // Creazione di una lista di operatori
         List<Operatore> operatori = new List<Operatore>();
+        // Inizializzazione di un ciclo per continuare a chiedere all'utente
         bool continua = true;
-        while (continua) {
-
+        while (continua)
+        {
+            // Stampa del menu per la selezione del tipo di operatore
+            // e per eseguire altre operazioni
             Menu();
             string scelta = Console.ReadLine();
-
+            // Controllo della scelta dell'utente
+            // Se l'utente sceglie un numero da 1 a 7, viene creato un nuovo operatore
             switch (scelta)
             {
                 case "1":
@@ -128,7 +159,7 @@ public class Program
                     {
                         operatore.EseguiCompito();
                     }
-                break;
+                    break;
                 case "7":
                     Console.WriteLine("Uscita dal programma.");
                     continua = false;
@@ -141,7 +172,7 @@ public class Program
 
     }
     public static void Menu()
-    { 
+    {
         Console.WriteLine("Seleziona il tipo di operatore da creare:");
         Console.WriteLine("1. Operatore Emergenza");
         Console.WriteLine("2. Operatore Sicurezza");
