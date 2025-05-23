@@ -4,8 +4,10 @@ using System.Collections.Generic;
 //classe padre Operatore
 public class Operatore
 {
+    //proprieta private
     private string nome = "";
     private string turno = "";
+    //proprieta pubbliche con get e set
     public string Nome
     {
         get
@@ -28,7 +30,7 @@ public class Operatore
             turno = value;
         }
     }
-
+    //metodo virtual
     public virtual void EseguiCompito()
     {
         Console.WriteLine("Operatore generico in servizio.");
@@ -43,7 +45,9 @@ public class Operatore
 //classe figlia OperatoreEmergenza
 public class OperatoreEmergenza : Operatore
 {
+    //proprieta privata
     private int livelloEmergenza = 0;
+    //proprieta pubblica con get set 
     public int LivelloEmergenza
     {
         get
@@ -61,9 +65,8 @@ public class OperatoreEmergenza : Operatore
                 livelloEmergenza = value;
             }
         }
-
-
     }
+    //metodo erditato dalla classe padre
     public override void EseguiCompito()
     {
         base.EseguiCompito();
@@ -77,7 +80,9 @@ public class OperatoreEmergenza : Operatore
 //classe figlia OperatoreSicurezza
 public class OperatoreSicurezza : Operatore
 {
+    //proprieta privata
     private string AreaSorvegliata = "";
+    //proprieta pubblica con get set 
     public string areasorvegliata
     {
         get
@@ -89,6 +94,7 @@ public class OperatoreSicurezza : Operatore
             AreaSorvegliata = value;
         }
     }
+    //metodo erditato dalla classe padre
     public override void EseguiCompito()
     {
         base.EseguiCompito();
@@ -116,6 +122,7 @@ public class OpratoreLogitica : Operatore
             NumeroConsegne = value;
         }
     }
+    //metodo erditato dalla classe padre
     public override void EseguiCompito()
     {
         base.EseguiCompito();
@@ -181,12 +188,12 @@ public class Program
                 case "2"://operatore di sicurezza
                 try
                     {
-                    Console.WriteLine("inserisci il nome");
-                    nome = Console.ReadLine();
-                    Console.WriteLine("inserisci il turno");
-                    turno =Console.ReadLine();
-                    Console.WriteLine("Inserisci l area da sorvegliare");
-                    areasorvegliata = Console.ReadLine();
+                        Console.WriteLine("inserisci il nome");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("inserisci il turno");
+                        turno =Console.ReadLine();
+                        Console.WriteLine("Inserisci l area da sorvegliare");
+                        areasorvegliata = Console.ReadLine();
                     }
                     catch (Exception err)
                     {
@@ -198,12 +205,12 @@ public class Program
                 case "3"://operatore Logistico
                 try
                     {
-                    Console.WriteLine("inserisci il nome");
-                    nome = Console.ReadLine();
-                    Console.WriteLine("inserisci il turno");
-                    turno =Console.ReadLine();
-                    Console.WriteLine("Inserisci numero di consegne");
-                    numeroconsegne = int.Parse(Console.ReadLine());
+                        Console.WriteLine("inserisci il nome");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("inserisci il turno");
+                        turno =Console.ReadLine();
+                        Console.WriteLine("Inserisci numero di consegne");
+                        numeroconsegne = int.Parse(Console.ReadLine());
                     }
                     catch (Exception err)
                     {
@@ -215,10 +222,10 @@ public class Program
                 case "4": //Operatore Generico
                 try
                     {
-                    Console.WriteLine("inserisci il nome");
-                    nome = Console.ReadLine();
-                    Console.WriteLine("inserisci il turno");
-                    turno =Console.ReadLine();
+                        Console.WriteLine("inserisci il nome");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("inserisci il turno");
+                        turno =Console.ReadLine();
                     }
                     catch (Exception err)
                     {
@@ -247,7 +254,6 @@ public class Program
                     break;
             }
         }
-
     }
     //menu
     public static void Menu()

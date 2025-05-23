@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EKa0+y40mC9jhuxBBeIpHIot93YOWOoIwzBhBZs+j0CAklSrfr1ZkqrAz3cyKh1jLc7qrFD8VLaewCPq7ECjJw==",
+  "dgSpecHash": "GqRJiQoArEF5LEYxE52wtEB7Xcz760vtGR2H9npwMuSH81UkwSAUPkKjoQ0YMo4LNqzKNsPm+UayqvkJ297GTQ==",
   "success": true,
-  "projectFilePath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/VerificaTest1/Verifica1/Verifica1.csproj",
+  "projectFilePath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/VerificaTest/Verifica1/Verifica1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
