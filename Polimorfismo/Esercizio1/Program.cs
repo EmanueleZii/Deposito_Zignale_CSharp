@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+
+// Definizione della classe base Veicolo
     class Veicolo
     {
         public string Targa { get; set; }
@@ -24,7 +26,6 @@ using System.Collections.Generic;
                 }
             }
         }
-
         public virtual void Ripara()
         {
             Console.WriteLine("Il veicolo viene controllato.");
@@ -63,7 +64,7 @@ class Program
                     {
                         new Auto(),
                         new Moto(),
-                        new Furgone()
+                        new Camion()
                     };
         // Impostazione della targa del veicolo
         Console.WriteLine("Benvenuto nel programma di controllo veicoli.");
@@ -73,8 +74,8 @@ class Program
             Console.Write("Targa: ");
             veicolo.Targa = Console.ReadLine();
         }
-        // Impostazione del numero di riparazioni
-
+        
+        // Creazione di un oggetto di tipo Auto, Moto e Camion
         bool continua = true;
         Moto MotoRiparata = new Moto();
         MotoRiparata.Riparazioni = 0;
@@ -82,6 +83,7 @@ class Program
         AutoRiparata.Riparazioni = 0;
         Camion FurgoneRiparato = new Camion();
         FurgoneRiparato.Riparazioni = 0;
+        // Impostazione del budget per le riparazioni
         int budget = 0;
         Console.WriteLine("Inserisci il budget per le riparazioni:");
         budget = int.Parse(Console.ReadLine());
