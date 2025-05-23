@@ -4,8 +4,8 @@ using System.Collections.Generic;
 //classe padre Operatore
 public class Operatore
 {
-    private string nome { get; set; }
-    private string turno { get; set; }
+    private string nome = "";
+    private string turno = "";
     public string Nome
     {
         get
@@ -43,7 +43,7 @@ public class Operatore
 //classe figlia OperatoreEmergenza
 public class OperatoreEmergenza : Operatore
 {
-    private int livelloEmergenza;
+    private int livelloEmergenza = 0;
     public int LivelloEmergenza
     {
         get
@@ -77,7 +77,7 @@ public class OperatoreEmergenza : Operatore
 //classe figlia OperatoreSicurezza
 public class OperatoreSicurezza : Operatore
 {
-    private string AreaSorvegliata;
+    private string AreaSorvegliata = "";
     public string areasorvegliata
     {
         get
@@ -150,6 +150,7 @@ public class Program
             // Stampa del menu per la selezione del tipo di operatore
             // e per eseguire altre operazioni
             Menu();
+            // variabili
             string nome ="";
             string turno = "";
             int livelloUrgenza = 0;
@@ -220,6 +221,7 @@ public class Program
         }
 
     }
+    //menu
     public static void Menu()
     {
         Console.WriteLine("Seleziona il tipo di operatore da creare:");
@@ -231,6 +233,7 @@ public class Program
         Console.WriteLine("6. Esegui compito");
         Console.WriteLine("7. Esci");
     }
+    //stampa tutti gli operatori
     public static void StampaListaOperatori(List<Operatore> operatori)
     {
         foreach (Operatore operatore in operatori)
