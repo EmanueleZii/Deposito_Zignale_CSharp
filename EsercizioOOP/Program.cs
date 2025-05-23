@@ -167,7 +167,7 @@ public class Program
                     Console.WriteLine("inserisci il turno");
                     turno =Console.ReadLine();
                     Console.WriteLine("Inserisci il livello d'urgenza");
-                    livelloUrgenza = Console.ReadLine();
+                    livelloUrgenza = int.Parse(Console.ReadLine());
                     operatoreEmergenza = new OperatoreEmergenza(nome, turno, livelloUrgenza);
                     operatori.Add(operatoreEmergenza);
                     break;
@@ -187,7 +187,7 @@ public class Program
                     Console.WriteLine("inserisci il turno");
                     turno =Console.ReadLine();
                     Console.WriteLine("Inserisci numero di consegne");
-                    numeroconsegne = Console.ReadLine();
+                    numeroconsegne = int.Parse(Console.ReadLine());
                     operatoreLogistica = new OpratoreLogitica(nome, turno, numeroconsegne);
                     operatori.Add(operatoreLogistica);
                     break;
