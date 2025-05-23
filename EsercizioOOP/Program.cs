@@ -33,6 +33,11 @@ public class Operatore
     {
         Console.WriteLine("Operatore generico in servizio.");
     }
+    public Operatore(string _nome, string _turno)
+    {
+        this.Nome = _nome;
+        this.Turno = _turno;        
+    }
 }
 //classe figlia OperatoreEmergenza
 public class OperatoreEmergenza : Operatore
@@ -55,11 +60,17 @@ public class OperatoreEmergenza : Operatore
                 livelloEmergenza = value;
             }
         }
+
+
     }
     public override void EseguiCompito()
     {
         base.EseguiCompito();
         Console.WriteLine("Operatore di macchina in servizio.");
+    }
+    
+    public OperatoreEmergenza(string nome, string turno, int livelloemergenza) : base (nome, turno) {
+        livelloEmergenza = livelloemergenza;        
     }
 }
 //classe figlia OperatoreSicurezza
@@ -82,6 +93,9 @@ public class OperatoreSicurezza : Operatore
         base.EseguiCompito();
         Console.WriteLine("Sorveglianza Area x.");
     }
+    public OperatoreSicurezza(string nome, string turno, string _areasorvegliata) : base (nome, turno) {
+        areasorvegliata = _areasorvegliata;        
+    }
 }
 
 //classe figlia OperatoreLogistica
@@ -103,6 +117,9 @@ public class OpratoreLogitica : Operatore
     {
         base.EseguiCompito();
         Console.WriteLine("Coordinamento di x consegne.");
+    }
+    public OpratoreLogitica(string nome, string turno, int _numeroconsegne) : base (nome, turno) {
+        _numeroconsegne = numeroconsegne;        
     }
 }
 
@@ -128,25 +145,52 @@ public class Program
             // Stampa del menu per la selezione del tipo di operatore
             // e per eseguire altre operazioni
             Menu();
+            string nome ="";
+            string turno = "";
+            int livelloUrgenza = 0;
+            string areasorvegliata = "";
+            int numeroconsegne = 0;
             string scelta = Console.ReadLine();
             // Controllo della scelta dell'utente
             // Se l'utente sceglie un numero da 1 a 7, viene creato un nuovo operatore
             switch (scelta)
             {
-                case "1":
-                    operatoreEmergenza = new OperatoreEmergenza();
+                case "1": //operatore d emergenza
+                    Console.WriteLine("inserisci il nome");
+                    nome = Console.ReadLine();
+                    Console.WriteLine("inserisci il turno");
+                    turno =Console.ReadLine();
+                    Console.WriteLine("Inserisci il livello d'urgenza");
+                    livelloUrgenza = Console.ReadLine();
+                    operatoreEmergenza = new OperatoreEmergenza(nome, turno, livelloUrgenza);
                     operatori.Add(operatoreEmergenza);
                     break;
-                case "2":
-                    operatoreSicurezza = new OperatoreSicurezza();
+                case "2"://operatore di sicurezza
+                    Console.WriteLine("inserisci il nome");
+                    nome = Console.ReadLine();
+                    Console.WriteLine("inserisci il turno");
+                    turno =Console.ReadLine();
+                    Console.WriteLine("Inserisci l area da sorvegliare");
+                    areasorvegliata = Console.ReadLine();
+                    operatoreSicurezza = new OperatoreSicurezza(nome, turno, areasorvegliata);
                     operatori.Add(operatoreSicurezza);
                     break;
-                case "3":
-                    operatoreLogistica = new OpratoreLogitica();
+                case "3"://operatore Logistico
+                    Console.WriteLine("inserisci il nome");
+                    nome = Console.ReadLine();
+                    Console.WriteLine("inserisci il turno");
+                    turno =Console.ReadLine();
+                    Console.WriteLine("Inserisci numero di consegne");
+                    numeroconsegne = Console.ReadLine();
+                    operatoreLogistica = new OpratoreLogitica(nome, turno, numeroconsegne);
                     operatori.Add(operatoreLogistica);
                     break;
-                case "4":
-                    operatoreGenerico = new Operatore();
+                case "4": //Operatore Generico
+                    Console.WriteLine("inserisci il nome");
+                    nome = Console.ReadLine();
+                    Console.WriteLine("inserisci il turno");
+                    turno =Console.ReadLine();
+                    operatoreGenerico = new Operatore(nome, turno);
                     operatori.Add(operatoreGenerico);
                     break;
                 case "5":
