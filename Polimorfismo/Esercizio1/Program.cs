@@ -1,10 +1,9 @@
 ﻿using System;
-
-
+using System.Collections.Generic;
 
     class Veicolo
     {
-        string Targa;
+        public string Targa { get; set; }
         public virtual void Ripara()
         { 
                 Console.WriteLine("Il veicolo viene controllato.");
@@ -44,18 +43,56 @@
     static void Main(string[] args)
     {
         List<Veicolo> veicoli = new List<Veicolo>
-            {
-                new Auto(),
-                new Moto(),
-                new Furgone()
-            };
-
+                {
+                    new Auto(),
+                    new Moto(),
+                    new Furgone()
+                };
+        Console.WriteLine("Benvenuto nel programma di controllo veicoli.");
+        Console.WriteLine("Inserisci la targa del veicolo:");
         foreach (var veicolo in veicoli)
         {
-            veicolo.Ripara();
+            Console.Write("Targa: ");
+            veicolo.Targa = Console.ReadLine();
         }
-        Console.WriteLine("Tutti i veicoli sono stati controllati.");
-        Console.WriteLine("Premi un tasto per uscire.");
-        Console.ReadKey();
+        bool continua = true;
+
+        while (continua)
+        {
+            Console.WriteLine("Scegli un veicolo da controllare:");
+            Console.WriteLine("1. Auto");
+            Console.WriteLine("2. Moto");
+            Console.WriteLine("3. Furgone");
+            Console.WriteLine("4. Controlla tutti i veicoli");
+            Console.WriteLine("5. Esci");
+            string scelta = Console.ReadLine();
+
+            switch (scelta)
+            {
+                case "1":
+                    veicoli[0].Ripara();
+                    break;
+                case "2":
+                    veicoli[1].Ripara();
+                    break;
+                case "3":
+                    veicoli[2].Ripara();
+                    break;
+                case "4":
+                    foreach (var veicolo in veicoli)
+                    {
+                        veicolo.Ripara();
+                    }
+                    Console.WriteLine("Tutti i veicoli sono stati controllati.");
+                    break;
+                case "5":
+                    continua = false;
+                    Console.WriteLine("Uscita dal programma.");
+                    break;
+                default:
+                    Console.WriteLine("Scelta non valida.");
+                    break;
+            }
+        }
     }
 }
