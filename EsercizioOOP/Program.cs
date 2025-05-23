@@ -231,7 +231,7 @@ public class Program
                     StampaListaOperatori(operatori);
                     break;
                 case "6":
-                    Console.WriteLine("tuutti gli operatori in servizio");
+                    Console.WriteLine("tutti gli operatori in servizio");
                     // Esegui il compito per ogni operatore
                     foreach (Operatore operatore in operatori)
                     {
