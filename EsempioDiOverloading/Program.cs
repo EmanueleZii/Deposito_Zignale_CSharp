@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 
 public class Program {
-    
+
     public static void Main(string[] args)
     {
         Console.WriteLine(new Calcolatrice().Somma(10, 20));
@@ -18,6 +18,7 @@ public class Program {
 
 public class Calcolatrice
 {
+    
     public int Somma(int a, int b) => a + b;
     public double Somma(double a, double b) => a + b;
     public int Somma(int a, int b, int c) => a + b + c;
