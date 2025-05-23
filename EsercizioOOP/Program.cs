@@ -162,40 +162,68 @@ public class Program
             switch (scelta)
             {
                 case "1": //operatore d emergenza
-                    Console.WriteLine("inserisci il nome");
-                    nome = Console.ReadLine();
-                    Console.WriteLine("inserisci il turno");
-                    turno =Console.ReadLine();
-                    Console.WriteLine("Inserisci il livello d'urgenza");
-                    livelloUrgenza = int.Parse(Console.ReadLine());
+                    try
+                    {
+                        Console.WriteLine("inserisci il nome");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("inserisci il turno");
+                        turno = Console.ReadLine();
+                        Console.WriteLine("Inserisci il livello d'urgenza");
+                        livelloUrgenza = int.Parse(Console.ReadLine());
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine("si e verificato un errore");
+                    }
                     operatoreEmergenza = new OperatoreEmergenza(nome, turno, livelloUrgenza);
                     operatori.Add(operatoreEmergenza);
                     break;
                 case "2"://operatore di sicurezza
+                try
+                    {
                     Console.WriteLine("inserisci il nome");
                     nome = Console.ReadLine();
                     Console.WriteLine("inserisci il turno");
                     turno =Console.ReadLine();
                     Console.WriteLine("Inserisci l area da sorvegliare");
                     areasorvegliata = Console.ReadLine();
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine("si e verificato un errore");
+                    }
                     operatoreSicurezza = new OperatoreSicurezza(nome, turno, areasorvegliata);
                     operatori.Add(operatoreSicurezza);
                     break;
                 case "3"://operatore Logistico
+                try
+                    {
                     Console.WriteLine("inserisci il nome");
                     nome = Console.ReadLine();
                     Console.WriteLine("inserisci il turno");
                     turno =Console.ReadLine();
                     Console.WriteLine("Inserisci numero di consegne");
                     numeroconsegne = int.Parse(Console.ReadLine());
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine("si e verificato un errore");
+                    }
                     operatoreLogistica = new OpratoreLogitica(nome, turno, numeroconsegne);
                     operatori.Add(operatoreLogistica);
                     break;
                 case "4": //Operatore Generico
+                try
+                    {
                     Console.WriteLine("inserisci il nome");
                     nome = Console.ReadLine();
                     Console.WriteLine("inserisci il turno");
                     turno =Console.ReadLine();
+                    }
+                    catch (Exception err)
+                    {
+                        Console.WriteLine("si e verificato un errore");
+                    }
                     operatoreGenerico = new Operatore(nome, turno);
                     operatori.Add(operatoreGenerico);
                     break;
