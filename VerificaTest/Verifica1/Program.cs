@@ -58,6 +58,29 @@ public class AutoAziendale : Veicolo
     private string targa = "";
     private bool UsoPrivato = true;
 
+    public bool usoprivato
+    {
+        get
+        {
+            return UsoPrivato;
+        }
+        set
+        {
+            UsoPrivato = value;
+        }
+    }
+    public string Targa
+    {
+        get
+        {
+            return targa;
+        }
+        set
+        {
+            targa = value;
+        }
+    }
+
     public override void StampaInfo()
     {
         base.StampaInfo();
@@ -66,8 +89,8 @@ public class AutoAziendale : Veicolo
 
     public AutoAziendale(string _marca, string _modello, string _annoImmatricolazione, string _targa, bool _usoprivato) : base(_marca, _modello, _annoImmatricolazione)
     {
-        _targa = targa;
-        _usoprivato = UsoPrivato; 
+        Targa  = _targa;
+        UsoPrivato = usoprivato; 
     }
 
 }
@@ -82,7 +105,7 @@ public class FurgoneAziendale : Veicolo
         }
         set
         {
-            CapacitaCarico = CapacitaCarico;
+            CapacitaCarico = value;
         }
     }
     public override void StampaInfo()
@@ -93,7 +116,7 @@ public class FurgoneAziendale : Veicolo
 
     public FurgoneAziendale(string _marca, string _modello, string _annoImmatricolazione, int _capacitacarico) : base(_marca, _modello, _annoImmatricolazione)
     {
-        _capacitacarico = capacitaCarico;
+        capacitaCarico = _capacitacarico ;
     }
 
 }
@@ -178,12 +201,10 @@ public class Program
         Console.WriteLine("5 .esci");
     }
 
-    public static void StampaVeicoli(List<Veicolo> veicoli)
-    {
+    public static void StampaVeicoli(List<Veicolo> veicoli) {
         foreach (Veicolo v in veicoli)
         {
             v.StampaInfo();
         }
-        
     }
 }
