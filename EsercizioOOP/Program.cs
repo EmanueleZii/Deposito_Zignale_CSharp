@@ -33,10 +33,11 @@ public class Operatore
     {
         Console.WriteLine("Operatore generico in servizio.");
     }
+    //costruttore
     public Operatore(string _nome, string _turno)
     {
         this.Nome = _nome;
-        this.Turno = _turno;        
+        this.Turno = _turno;
     }
 }
 //classe figlia OperatoreEmergenza
@@ -68,7 +69,7 @@ public class OperatoreEmergenza : Operatore
         base.EseguiCompito();
         Console.WriteLine("Operatore di macchina in servizio.");
     }
-    
+    //costruttore
     public OperatoreEmergenza(string nome, string turno, int livelloemergenza) : base (nome, turno) {
         livelloEmergenza = livelloemergenza;        
     }
@@ -93,8 +94,10 @@ public class OperatoreSicurezza : Operatore
         base.EseguiCompito();
         Console.WriteLine("Sorveglianza Area x.");
     }
-    public OperatoreSicurezza(string nome, string turno, string _areasorvegliata) : base (nome, turno) {
-        areasorvegliata = _areasorvegliata;        
+    //costruttore
+    public OperatoreSicurezza(string nome, string turno, string _areasorvegliata) : base(nome, turno)
+    {
+        areasorvegliata = _areasorvegliata;
     }
 }
 
@@ -118,8 +121,10 @@ public class OpratoreLogitica : Operatore
         base.EseguiCompito();
         Console.WriteLine("Coordinamento di x consegne.");
     }
-    public OpratoreLogitica(string nome, string turno, int _numeroconsegne) : base (nome, turno) {
-        _numeroconsegne = numeroconsegne;        
+    //costruttore
+    public OpratoreLogitica(string nome, string turno, int _numeroconsegne) : base(nome, turno)
+    {
+        _numeroconsegne = numeroconsegne;
     }
 }
 
