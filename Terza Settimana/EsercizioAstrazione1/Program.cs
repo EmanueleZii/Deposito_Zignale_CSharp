@@ -1,56 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-
-public abstract class DispositivoElettrico
-{
-    public string Modello { get; set; }
-
+public abstract class DispositivoElettrico {
+    private string Modello = "";
+    public string modello {
+        get { return Modello; }
+        set { Modello = value; }
+    }
     public abstract void Accendi();
     public abstract void Spegni();
     public abstract void MostraInfo();
 }
-
-public class Computer : DispositivoElettrico
-{
-    public override void Accendi()
-    {
-        Console.WriteLine($"{Modello} acceso.");
+public class Computer : DispositivoElettrico {
+    public override void Accendi() {
+        Console.WriteLine($"{modello} acceso....");
     }
-
-    public override void Spegni()
-    {
-        Console.WriteLine($"{Modello} spento.");
+    public override void Spegni() {
+        Console.WriteLine($"{modello} spento.");
     }
-
-    public override void MostraInfo()
-    {
-        Console.WriteLine($"Computer Modello: {Modello}");
+    public override void MostraInfo() {
+        Console.WriteLine($"Computer Modello: {modello}");
     }
 }
-public class Stampante : DispositivoElettrico
-{
-    public override void Accendi()
-    {
-        Console.WriteLine($"{Modello} acceso.");
+public class Stampante : DispositivoElettrico {
+    public override void Accendi() {
+        Console.WriteLine($"{modello} acceso.");
     }
-
-    public override void Spegni()
-    {
-        Console.WriteLine($"{Modello} spento.");
+    public override void Spegni() {
+        Console.WriteLine($"{modello} va in standby.");
     }
-
-    public override void MostraInfo()
-    {
-        Console.WriteLine($"Stampante Modello: {Modello}");
+    public override void MostraInfo() {
+        Console.WriteLine($"Stampante Modello: {modello}");
     }
-
 }
-
-
-public class Program
-{
-    public static void Main()
-    {
+public class Program {
+    public static void Main() {
         List<DispositivoElettrico> dispositivi = new List<DispositivoElettrico>(); 
         bool esegui = true;
         while (esegui) {
@@ -60,12 +43,12 @@ public class Program
                 case "1":
                     Console.WriteLine("Inserisci il modello del Computer:");
                     string modelloComputer = Console.ReadLine();
-                    dispositivi.Add(new Computer { Modello = modelloComputer });
+                    dispositivi.Add(new Computer { modello = modelloComputer });
                     break;
                 case "2":
                     Console.WriteLine("Inserisci il modello della Stampante:");
                     string modelloStampante = Console.ReadLine();
-                    dispositivi.Add(new Stampante { Modello = modelloStampante });
+                    dispositivi.Add(new Stampante { modello = modelloStampante });
                     break;
                 case "3":
                     StampaTutto(dispositivi);
@@ -73,7 +56,7 @@ public class Program
                 case "4":
                     Console.WriteLine("Inserisci il modello del dispositivo da accendere:");
                     string modelloDaAccendere = Console.ReadLine();
-                    DispositivoElettrico dispositivoTrovato = dispositivi.Find(d => d.Modello.Equals(modelloDaAccendere));
+                    DispositivoElettrico dispositivoTrovato = dispositivi.Find(d => d.modello.Equals(modelloDaAccendere));
                     if (dispositivoTrovato != null)
                         dispositivoTrovato.Accendi();
                     else
@@ -82,7 +65,7 @@ public class Program
                 case "5":
                     Console.WriteLine("Inserisci il modello del dispositivo da spegnere:");
                     string modelloDaSpegnere = Console.ReadLine();
-                    DispositivoElettrico dispositivoDaSpegnere = dispositivi.Find(d => d.Modello.Equals(modelloDaSpegnere));
+                    DispositivoElettrico dispositivoDaSpegnere = dispositivi.Find(d => d.modello.Equals(modelloDaSpegnere));
                     if (dispositivoDaSpegnere != null)
                         dispositivoDaSpegnere.Spegni();
                     else
@@ -97,9 +80,7 @@ public class Program
             }
         }
     }
-
-    public static void Menu()
-    { 
+    public static void Menu() { 
         Console.WriteLine("Scegli un'opzione:");
         Console.WriteLine("1. Crea un nuovo Computer");
         Console.WriteLine("2. Crea una nuova Stampante");
@@ -108,11 +89,8 @@ public class Program
         Console.WriteLine("5. Spegni un dispositivo");
         Console.WriteLine("6. Esci");
     }
-
-    public static void StampaTutto(List<DispositivoElettrico> dispositivi)
-    {
-        foreach (var dispositivo in dispositivi)
-        {
+    public static void StampaTutto(List<DispositivoElettrico> dispositivi) {
+        foreach (var dispositivo in dispositivi) {
             dispositivo.Accendi();
             dispositivo.MostraInfo();
             dispositivo.Spegni();

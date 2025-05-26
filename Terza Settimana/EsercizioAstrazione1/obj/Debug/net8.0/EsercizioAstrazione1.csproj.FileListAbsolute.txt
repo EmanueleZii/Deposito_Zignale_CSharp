@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/bin/Debug/net8.0/EsercizioAstrazione1
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/bin/Debug/net8.0/EsercizioAstrazione1.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/bin/Debug/net8.0/EsercizioAstrazione1.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/bin/Debug/net8.0/EsercizioAstrazione1.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/bin/Debug/net8.0/EsercizioAstrazione1.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/refint/EsercizioAstrazione1.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/EsercizioAstrazione1.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/EsercizioAstrazione1/obj/Debug/net8.0/ref/EsercizioAstrazione1.dll
