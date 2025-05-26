@@ -36,18 +36,24 @@ public class Program {
     public static void Main() {
         List<DispositivoElettrico> dispositivi = new List<DispositivoElettrico>(); 
         bool esegui = true;
+        string modelloComputer = "";
+        string modelloStampante = "";
+        string modelloDaAccendere = "";
+        string modelloDaSpegnere = "";
+        Console.WriteLine("Benvenuto nel gestore di dispositivi elettrici!");
         while (esegui) {
             Menu();
             string scelta = Console.ReadLine();
-            switch (scelta) {
+            switch (scelta)
+            {
                 case "1":
                     Console.WriteLine("Inserisci il modello del Computer:");
-                    string modelloComputer = Console.ReadLine();
+                    modelloComputer = Console.ReadLine();
                     dispositivi.Add(new Computer { modello = modelloComputer });
                     break;
                 case "2":
                     Console.WriteLine("Inserisci il modello della Stampante:");
-                    string modelloStampante = Console.ReadLine();
+                    modelloStampante = Console.ReadLine();
                     dispositivi.Add(new Stampante { modello = modelloStampante });
                     break;
                 case "3":
@@ -55,16 +61,16 @@ public class Program {
                     break;
                 case "4":
                     Console.WriteLine("Inserisci il modello del dispositivo da accendere:");
-                    string modelloDaAccendere = Console.ReadLine();
+                    modelloDaAccendere = Console.ReadLine();
                     DispositivoElettrico dispositivoTrovato = dispositivi.Find(d => d.modello.Equals(modelloDaAccendere));
                     if (dispositivoTrovato != null)
                         dispositivoTrovato.Accendi();
                     else
                         Console.WriteLine("Dispositivo non trovato.");
-                break;
+                    break;
                 case "5":
                     Console.WriteLine("Inserisci il modello del dispositivo da spegnere:");
-                    string modelloDaSpegnere = Console.ReadLine();
+                    modelloDaSpegnere = Console.ReadLine();
                     DispositivoElettrico dispositivoDaSpegnere = dispositivi.Find(d => d.modello.Equals(modelloDaSpegnere));
                     if (dispositivoDaSpegnere != null)
                         dispositivoDaSpegnere.Spegni();
