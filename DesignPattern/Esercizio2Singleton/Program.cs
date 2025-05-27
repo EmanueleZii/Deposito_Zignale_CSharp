@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-public sealed class Logger
-{
+public sealed class Logger {
     private static Logger instance;
-    private Logger() { }
     List<string> logMessages = new List<string>();
+    private Logger() { }
     public static Logger Instance
     {
         get
         {
             if (instance == null)
-            {
                 instance = new Logger();
-            }
+
             return instance;
         }
     }
@@ -22,10 +20,8 @@ public sealed class Logger
         logMessages.Add(message);
     }
 
-    public void StampaLog()
-    {
-        foreach (var log in logMessages)
-        {
+    public void StampaLog() {
+        foreach (var log in logMessages) {
             Console.WriteLine(log);
         }
     }
@@ -52,7 +48,7 @@ public class Programs
             {
                 case 1:
                     logger1.StampaLog();
-                    logger2.StampaLog();
+                    //logger2.StampaLog();
                     break;
                 case 2:
                     Console.WriteLine("Inserisci il log da aggiungere:");
