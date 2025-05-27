@@ -1,24 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
-
-// Singleton: Logger di sistema
-public class Logger
+// Esempio di implementazione del pattern Singleton in C#
+public sealed class Singleton
 {
-    private static Logger istanza;
-    private Logger() { }
+    // Riferimento all’unica istanza (inizialmente null)
+    private static Singleton _instance;
 
-    public static Logger GetIstanza()
+    // Oggetto di lock per garantire il thread‑safety
+    private static readonly object _lock = new object();
+
+    // Costruttore privato: impedisce 'new Singleton()' dall’esterno
+    private Singleton()
     {
-        if (istanza == null)
-        {
-            istanza = new Logger();
-        }
-        return istanza;
+        // Codice di inizializzazione (es. caricamento configurazione)
     }
 
-    public void ScriviMessaggio(string messaggio)
+    // Punto di accesso globale all’istanza
+    public static Singleton Instance {
+        get {
+            // Primo controllo "senza lock" per performance
+            if (_instance == null)
+            {
+                lock (_lock) // Se due thread arrivano qui, uno atterra nel lock
+                {
+                    // Secondo controllo dentro il lock per evitare doppia creazione
+                    if (_instance == null)
+                    {
+                        _instance = new Singleton();
+                    }
+                }
+            }
+            return _instance;
+        }
+    }
+
+    // Metodo d’esempio che utilizza l’istanza singleton
+    public void DoSomething()
     {
-        Console.WriteLine($"[{DateTime.Now}] {messaggio}");
+        Console.WriteLine("Metodo DoSomething chiamato sull'istanza Singleton.");
     }
 }
 
@@ -26,13 +44,28 @@ public class Program
 {
     public static void Main()
     {
-        Logger log1 = Logger.GetIstanza();
-        Logger log2 = Logger.GetIstanza();
+        // Accesso all'istanza singleton
+        Singleton singletonInstance = Singleton.Instance;
 
-        log1.ScriviMessaggio("Sistema avviato.");
-        log2.ScriviMessaggio("Connessione al database riuscita.");
+        // Chiamata a un metodo dell'istanza
+        //singletonInstance.DoSomething();
 
-        Console.WriteLine("Le due istanze sono uguali? " + (log1 == log2));
-        Console.WriteLine("Programma terminato.");
+        Console.Write(singletonInstance); // Dimostrazione che è la stessa istanza
     }
+}
+
+public class Pippo2
+{
+    public static void pippo2()
+    {
+        // Accesso all'istanza singleton
+        Singleton singletonInstance = Singleton.Instance;
+
+        // Chiamata a un metodo dell'istanza
+        singletonInstance.DoSomething();
+
+        Console.Write(singletonInstance); // Dimostrazione che è la stessa istanza
+    }
+    
+    
 }

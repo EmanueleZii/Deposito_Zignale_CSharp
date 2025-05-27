@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/bin/Debug/net8.0/ProvaSingleton
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/bin/Debug/net8.0/ProvaSingleton.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/bin/Debug/net8.0/ProvaSingleton.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/bin/Debug/net8.0/ProvaSingleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/bin/Debug/net8.0/ProvaSingleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/refint/ProvaSingleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ProvaSingleton.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/ProvaSingleton/obj/Debug/net8.0/ref/ProvaSingleton.dll
