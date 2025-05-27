@@ -64,6 +64,7 @@
 </ul>
 
 <h3>Introduzione ai design pattern</h3>
+<span>(Terza Settimana)</span>
 <ul>
   <li>Cos’è un design pattern</li>
   <li>Design pattern nella pratica</li>
