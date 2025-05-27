@@ -4,50 +4,42 @@ public sealed class Logger {
     private static Logger instance;
     List<string> logMessages = new List<string>();
     private Logger() { }
-    public static Logger Instance
-    {
-        get
-        {
+    public static Logger Instance {
+        get {
             if (instance == null)
                 instance = new Logger();
 
             return instance;
         }
     }
-    public void Log(string message)
-    {
+    public void Log(string message) {
         Console.WriteLine($"[{DateTime.Now}] {message}");
         logMessages.Add(message);
     }
 
     public void StampaLog() {
         Console.WriteLine("--- LOG REGISTRATI ---");
-        foreach (var log in logMessages)
-        {
+        foreach (var log in logMessages) {
             Console.WriteLine(log);
         }
     }
 }
 
-public class Programs
-{
-    public static void Main()
-    {
+public class Programs {
+    public static void Main() {
         Logger logger1 = Logger.Instance;
         Logger logger2 = Logger.Instance;
         bool continua = true;
-        while (continua)
-        {
+        while (continua) {
             Console.WriteLine("Scegli operazione");
-            Console.WriteLine("1. stampa tutti i log");
-            Console.WriteLine("2. aggiungi un log");
-            Console.WriteLine("3. aggiungi un secondo log");
+            Console.WriteLine("1. Stampa tutti i log Registrati");
+            Console.WriteLine("2. Aggiungi un log");
+            Console.WriteLine("3. Aggiungi un secondo log");
             Console.WriteLine("4. Esci");
             int scelta = int.Parse(Console.ReadLine());
             string log2 = "";
             string log = "";
-            switch (scelta)
-            {
+            switch (scelta) {
                 case 1:
                     logger1.StampaLog();
                     break;
