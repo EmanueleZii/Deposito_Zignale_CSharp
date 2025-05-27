@@ -21,7 +21,9 @@ public sealed class Logger {
     }
 
     public void StampaLog() {
-        foreach (var log in logMessages) {
+        Console.WriteLine("--- LOG REGISTRATI ---");
+        foreach (var log in logMessages)
+        {
             Console.WriteLine(log);
         }
     }
@@ -29,7 +31,7 @@ public sealed class Logger {
 
 public class Programs
 {
-    public void Main()
+    public static void Main()
     {
         Logger logger1 = Logger.Instance;
         Logger logger2 = Logger.Instance;
@@ -48,7 +50,6 @@ public class Programs
             {
                 case 1:
                     logger1.StampaLog();
-                    //logger2.StampaLog();
                     break;
                 case 2:
                     Console.WriteLine("Inserisci il log da aggiungere:");
