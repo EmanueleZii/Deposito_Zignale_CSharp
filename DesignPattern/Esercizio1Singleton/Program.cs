@@ -27,7 +27,7 @@ public class Program
     {
         Logger logger1 = Logger.GetInstance;
         // Example usage of the Logger singleton
-        Logger logger = Logger.GetInstance;
-        logger.Log("This is a log message.");
+        Logger logger2 = Logger.GetInstance;
+        logger2.Log("This is a log message.");
     }
 }
