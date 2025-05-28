@@ -1,9 +1,9 @@
 ﻿using System;
+
 // Design Pattern Factory Method
 
 // 1. Iveicolo: definisce l'interfaccia del prodotto
-public interface IVeicolo
-{
+public interface IVeicolo {
     void Avvia();
     void MostraTipo();
 }
