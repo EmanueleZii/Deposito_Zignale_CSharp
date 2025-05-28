@@ -74,19 +74,31 @@ public sealed class RegistraVeicolo {
 // programm
 class Program {
     static void Main() {
-
-        Console.Write("Inserisci tipo di veicolo (auto): ");
-
-        string input = Console.ReadLine();
-
-        IVeicolo v = VeicoloFactory.CreaVeicolo(input);
-
-        v.Avvia();
-
-        RegistraVeicolo.Istanza.Registra(v);
-        RegistraVeicolo.Istanza.StampaTutti();
-
-        if (v == null)
-            Console.WriteLine("error...");
+        bool continua = true;
+        while (continua) {
+            Console.Write("Scegli Opzione: ");
+            Console.Write("1 .crea veicolo ");
+            Console.Write("2 .stampa tutti i veicoli ");
+            Console.Write("3.esci ");
+            int scelta = int.Parse(Console.ReadLine());
+            switch (scelta)
+            {
+                case 1:
+                    Console.WriteLine("che veicolo vuoi creare?");
+                    string input = Console.ReadLine();
+                    IVeicolo v = VeicoloFactory.CreaVeicolo(input);
+                    RegistraVeicolo.Istanza.Registra(v);
+                    break;
+                case 2:
+                    RegistraVeicolo.Istanza.StampaTutti();
+                    break;
+                case 3:
+                    continua = false;
+                    break;
+                default:
+                    Console.WriteLine("scelat non valida");
+                    break;
+            }
+        }
     }
 }
