@@ -5,7 +5,6 @@ public interface IVeicolo {
     void Avvia();
     void MostraTipo();
 }
-
 // 2. Auto: implementa IProduct
 public class Auto : IVeicolo {
     public void Avvia(){
@@ -15,7 +14,6 @@ public class Auto : IVeicolo {
         Console.WriteLine("Mostra Auto");
     }
 }
-
 // 3. Moto: un altro prodotto concreto
 public class Moto : IVeicolo {
     public void Avvia() {
@@ -25,7 +23,6 @@ public class Moto : IVeicolo {
         Console.WriteLine("Mostra Moto");
     }
 }
-
 public class Camion : IVeicolo {
     public void Avvia() {
         Console.WriteLine("Avvia Moto");
@@ -45,7 +42,7 @@ public static class VeicoloFactory {
                 return new Moto();
                 break;
             case "camion":
-                return new Auto();
+                return new Camion();
                 break;
             default:
                 Console.Write("scelta non valida");
