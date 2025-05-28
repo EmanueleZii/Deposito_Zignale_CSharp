@@ -1,7 +1,7 @@
 ﻿using System;
 // Design Pattern Factory Method
 
-// 1. IVeicolo : definisce l'interfaccia del prodotto
+//  IVeicolo : definisce l'interfaccia del prodotto
 public interface IVeicolo {
     void Avvia();
     void MostraTipo();
@@ -66,11 +66,13 @@ public sealed class RegistraVeicolo {
     }
     public void StampaTutti() {
         Console.WriteLine("\nVeicoli registrati:");
-        foreach (var v in veicoliregistrati) {
+        foreach (var v in veicoliregistrati)
+        {
             v.MostraTipo();
         }
     }
 }
+
 // programm
 class Program {
     static void Main() {
@@ -81,8 +83,7 @@ class Program {
             Console.Write("2 .stampa tutti i veicoli ");
             Console.Write("3.esci ");
             int scelta = int.Parse(Console.ReadLine());
-            switch (scelta)
-            {
+            switch (scelta) {
                 case 1:
                     Console.WriteLine("che veicolo vuoi creare?");
                     string input = Console.ReadLine();
