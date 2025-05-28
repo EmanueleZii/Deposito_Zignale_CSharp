@@ -39,14 +39,6 @@ public sealed class ConfigurazioneSistema
             Console.WriteLine("Errore: Chiave non trovata.");
         }
     }
-
-    //Il metodo per stampare tutte le configurazioni
-    public void Log(string message)
-    {
-        Console.WriteLine($"[{DateTime.Now}] {message}");
-        
-    }
-
     //metodo che stampa tutti i log aggiunti alla lista 
     public void StampaTutteConfigurazioni()
     {
