@@ -8,23 +8,19 @@ public interface IShape {
 }
 // 2. Cicle: implementa IProduct
 public class Circle : IShape {
-    public void Draw()
-    {
+    public void Draw() {
         Console.WriteLine("Circle creato");
     }
 }
 // 3. Square: un altro prodotto concreto
 public class Square : IShape {
-    public void Draw()
-    {
+    public void Draw() {
         Console.WriteLine("Square creato");
     }
 }
-public abstract class ShapeCreator
-{
+public abstract class ShapeCreator {
     public abstract IShape CreateShape(string type);
 }
-
 // 4. Creator: dichiara ConcreteShapeCreator
 public class ConcreteShapeCreator : ShapeCreator {
     public override IShape CreateShape(string tipo) {
