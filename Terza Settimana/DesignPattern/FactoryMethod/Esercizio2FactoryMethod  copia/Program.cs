@@ -26,14 +26,11 @@ public class ConcreteShapeCreator : ShapeCreator {
         switch (tipo.ToLower()) {
             case "cerchio":
                 return new Circle();
-                break;
             case "quadrato":
                 return new Square();
-                break;
             default:
                 Console.Write("scelta non valida");
                 return null;
-                break;
         }
     }
 }
