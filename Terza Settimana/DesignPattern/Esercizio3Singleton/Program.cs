@@ -33,8 +33,7 @@ public sealed class ConfigurazioneSistema {
         }
     }
     //metodo che stampa tutti i log aggiunti alla lista 
-    public void StampaTutteConfigurazioni()
-    {
+    public void StampaTutteConfigurazioni() {
         Console.WriteLine("--- Configurazioni Memorizzate ---");
         foreach (var conf in configurazioni)
         {
@@ -42,17 +41,14 @@ public sealed class ConfigurazioneSistema {
         }
     }
 }
-public class ModuloA
-{
-    public void Configura()
-    {
+public class ModuloA {
+    public void Configura() {
         MenuOpzioni();
     }
     public void MenuOpzioni() { 
         bool continua = true;
 
-        while (continua)
-        {
+        while (continua) {
             //menu
             Console.WriteLine("Scegli operazione");
             Console.WriteLine("1. Stampa Tutte Configurazione");
@@ -94,12 +90,10 @@ public class ModuloA
     }
 }
 
-public class ModuloB
-{
-    public void Configura()
-    {
+public class ModuloB {
+    
+    public void Configura() {
         MenuOpzioni();
-
     }
     public void MenuOpzioni() { 
         bool continua = true;
@@ -148,13 +142,11 @@ public class ModuloB
     
 }
 public class Programs {
-    public static void Main()
-    {
+    public static void Main() {
         ModuloA a = new ModuloA();
         ModuloB b = new ModuloB();
         bool continua = true;
-        while (continua)
-        {
+        while (continua) {
             Console.WriteLine("Che Modulo di Sistema preferisci Modulo A o Modulo b");
             Console.WriteLine("1. Modulo A");
             Console.WriteLine("2. Modulo B");
@@ -162,29 +154,21 @@ public class Programs {
             Console.WriteLine("4. Esci");
 
             int modulo = int.Parse(Console.ReadLine());
-            if (modulo == 1)
-            {
+            if (modulo == 1) {
                 Console.WriteLine("Benvenuto nel Modulo A");
                 a.MenuOpzioni();
             }
-            if (modulo == 2)
-            {
+            if (modulo == 2) {
                 Console.WriteLine("Benvenuto nel Modulo B");
                 b.MenuOpzioni();
             }
-            if (modulo == 3)
-            {
-
+            if (modulo == 3) {
                 ConfigurazioneSistema.Instance.StampaTutteConfigurazioni();
             }
-            if (modulo == 4)
-            {
+            if (modulo == 4) {
                 continua = false;
             }
         }
-        
-
-
     }
     
 }
