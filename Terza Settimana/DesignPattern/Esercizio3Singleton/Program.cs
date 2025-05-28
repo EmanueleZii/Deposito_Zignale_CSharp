@@ -44,11 +44,27 @@ public sealed class ConfigurazioneSistema {
 }
 
 public class Programs {
-    public static void Main() {
+    public static void Main()
+    {
         //instanze di ConfigurazioneSistema 
         //ConfigurazioneSistema conf1 = ConfigurazioneSistema.Instance;
+        Console.WriteLine("Che Modulo di Sistema preferisci Modulo A o Modulo b");
+        Console.WriteLine("1. Modulo A");
+        Console.WriteLine("2. Modulo B");
+        int modulo = int.Parse(Console.ReadLine());
+        if (modulo == 1) {
+            Console.WriteLine("Benvenuto nel Modulo A");
+            MenuOpzioni();
+        }
+        if (modulo == 2) {
+            Console.WriteLine("Benvenuto nel Modulo B");
+            MenuOpzioni();
+        } 
+
+    }
+    public static void MenuOpzioni() { 
         bool continua = true;
-        
+
         while (continua)
         {
             //menu
@@ -65,7 +81,7 @@ public class Programs {
 
             switch (scelta) {
                 case 1:
-                        ConfigurazioneSistema.Instance.StampaTutteConfigurazioni();
+                    ConfigurazioneSistema.Instance.StampaTutteConfigurazioni();
                     break;
                 case 2:
                     Console.WriteLine("Crea una Configurazione");
