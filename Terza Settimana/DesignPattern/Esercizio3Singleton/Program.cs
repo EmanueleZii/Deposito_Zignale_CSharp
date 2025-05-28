@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 
 //Singleton ConfigurazioneSistema
-public sealed class ConfigurazioneSistema
-{
+public sealed class ConfigurazioneSistema {
     //Instanza vuota del ConfigurazioneSistema
     private static ConfigurazioneSistema instance;
     //Lista di log
@@ -11,31 +10,25 @@ public sealed class ConfigurazioneSistema
     //costruttore vuoto privato
     private ConfigurazioneSistema() { }
     // la proprieta con il get per verificare se l instanza è null
-    public static ConfigurazioneSistema Instance
-    {
-        get
-        {
+    public static ConfigurazioneSistema Instance {
+        get {
             if (instance == null)
                 instance = new ConfigurazioneSistema();
 
             return instance;
         }
     }
-    public void Imposta(string chiave, string valore)
-    {
+    public void Imposta(string chiave, string valore) {
         Console.WriteLine($"chiave:{chiave} e {valore}");
         configurazioni.Add(chiave, valore);
     }
-    public void Leggi(string chiave)
-    {
+    public void Leggi(string chiave) {
 
-        if (configurazioni.ContainsKey(chiave))
-        {
+        if (configurazioni.ContainsKey(chiave)) {
             string valore = configurazioni[chiave];
             Console.WriteLine($"Chiave: {chiave} → Valore: {valore}");
         }
-        else
-        {
+        else {
             Console.WriteLine("Errore: Chiave non trovata.");
         }
     }
@@ -48,12 +41,11 @@ public sealed class ConfigurazioneSistema
             Console.WriteLine(conf);
         }
     }
-
 }
 
 public class Programs {
     public static void Main() {
-        //instanze di logger
+        //instanze di ConfigurazioneSistema 
         //ConfigurazioneSistema conf1 = ConfigurazioneSistema.Instance;
         bool continua = true;
         
@@ -71,8 +63,7 @@ public class Programs {
             string chiave = "";
             string valore = "";
 
-            switch (scelta)
-            {
+            switch (scelta) {
                 case 1:
                         ConfigurazioneSistema.Instance.StampaTutteConfigurazioni();
                     break;
