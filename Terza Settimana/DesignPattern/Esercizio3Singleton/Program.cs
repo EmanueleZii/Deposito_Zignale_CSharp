@@ -54,9 +54,7 @@ public sealed class ConfigurazioneSistema
 public class Programs {
     public static void Main() {
         //instanze di logger
-        ConfigurazioneSistema conf1 = ConfigurazioneSistema.Instance;
-        ConfigurazioneSistema conf2 = ConfigurazioneSistema.Instance;
-
+        //ConfigurazioneSistema conf1 = ConfigurazioneSistema.Instance;
         bool continua = true;
         
         while (continua)
@@ -84,13 +82,13 @@ public class Programs {
                     chiave = Console.ReadLine();
                     Console.WriteLine("Inserisci un valore");
                     valore = Console.ReadLine();
-                    conf1.Imposta(chiave, valore);
+                    ConfigurazioneSistema.Instance.Imposta(chiave, valore);
                     break;
                 case 3:
                     Console.WriteLine("Leggi una Chiave");
                     Console.WriteLine("inserisci la chiave che vuoi trovare");
                     chiave = Console.ReadLine();
-                    conf1.Leggi(chiave);
+                    ConfigurazioneSistema.Instance.Leggi(chiave);
                     break;
                 case 4:
                     continua = false;
