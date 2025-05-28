@@ -74,7 +74,7 @@ public class Programs {
             switch (scelta)
             {
                 case 1:
-                    conf1.StampaTutteConfigurazioni();
+                        ConfigurazioneSistema.Instance.StampaTutteConfigurazioni();
                     break;
                 case 2:
                     Console.WriteLine("Crea una Configurazione");
