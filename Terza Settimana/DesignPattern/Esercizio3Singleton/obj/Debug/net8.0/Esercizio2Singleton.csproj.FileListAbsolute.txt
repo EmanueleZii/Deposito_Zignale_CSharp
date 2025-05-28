@@ -1,0 +1,30 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/bin/Debug/net8.0/Esercizio2Singleton
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/bin/Debug/net8.0/Esercizio2Singleton.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/bin/Debug/net8.0/Esercizio2Singleton.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/bin/Debug/net8.0/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/bin/Debug/net8.0/Esercizio2Singleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/refint/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/Esercizio2Singleton.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/DesignPattern/Esercizio2Singleton/obj/Debug/net8.0/ref/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/bin/Debug/net8.0/Esercizio2Singleton
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/bin/Debug/net8.0/Esercizio2Singleton.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/bin/Debug/net8.0/Esercizio2Singleton.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/bin/Debug/net8.0/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/bin/Debug/net8.0/Esercizio2Singleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/refint/Esercizio2Singleton.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/Esercizio2Singleton.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Esercizio3Singleton/obj/Debug/net8.0/ref/Esercizio2Singleton.dll
