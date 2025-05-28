@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/bin/Debug/net8.0/EsempioFactoryMethod
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/bin/Debug/net8.0/EsempioFactoryMethod.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/bin/Debug/net8.0/EsempioFactoryMethod.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/bin/Debug/net8.0/EsempioFactoryMethod.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/bin/Debug/net8.0/EsempioFactoryMethod.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/refint/EsempioFactoryMethod.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/EsempioFactoryMethod.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/FactoryMethod/Esercizio2FactoryMethod  copia/obj/Debug/net8.0/ref/EsempioFactoryMethod.dll

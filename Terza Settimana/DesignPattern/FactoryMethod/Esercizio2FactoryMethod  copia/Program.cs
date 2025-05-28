@@ -1,5 +1,4 @@
 ﻿using System;
-
 // Design Pattern Factory Method
 
 // 1. Ishape: definisce l'interfaccia del prodotto
@@ -25,10 +24,10 @@ public abstract class ShapeCreator {
 public class ConcreteShapeCreator : ShapeCreator {
     public override IShape CreateShape(string tipo) {
         switch (tipo.ToLower()) {
-            case "auto":
+            case "cerchio":
                 return new Circle();
                 break;
-            case "moto":
+            case "quadrato":
                 return new Square();
                 break;
             default:
