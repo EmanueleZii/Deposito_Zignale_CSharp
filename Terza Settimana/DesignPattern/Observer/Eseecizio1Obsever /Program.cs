@@ -2,82 +2,77 @@
 using System.Collections.Generic;
 
 // 1. Observer: interfaccia che definisce il metodo di notifica
-public interface IObserver
-{
+public interface IObserver {
     void Update(string messaggio);
 }
-
 // 2. Subject: interfaccia che permette di aggiungere/rimuovere observer e notificare
-public interface ISoggetto
-{
+public interface ISoggetto {
     void Registra(IObserver observer);
     void Rimuovi(IObserver observer);
     void Notifica(string messaggio);
 }
-
 // 3. ConcreteSubject: implementa ISoggetto e mantiene lo stato osservato
 public class CentroMeteo : ISoggetto
 {
     private readonly List<IObserver> _observers = new List<IObserver>();
     private string _state;
-
-    public string State {
+    public string State
+    {
         get => _state;
-        set {
+        set
+        {
             _state = value;
             Notifica(_state);
         }
     }
-
-    public void Registra(IObserver observer) {
+    public void Registra(IObserver observer)
+    {
         _observers.Add(observer);
     }
-
-    public void Rimuovi(IObserver observer){
+    public void Rimuovi(IObserver observer)
+    {
         _observers.Remove(observer);
     }
-
-    public void Notifica(string messaggio) {
-        foreach (var observer in _observers) {
+    public void Notifica(string messaggio)
+    {
+        foreach (var observer in _observers)
+        {
             observer.Update(messaggio);
         }
     }
+    public void AggiornaMeteo(string dati)
+    {
+        Console.WriteLine("Aggiornamento meteo: " + dati);
+        Notifica(dati);
+    }
 }
-
 // 4. ConcreteObserver: implementa la logica di reazione alla notifica
 public class DisplayConsole : IObserver
 {
     private readonly string _name;
-
     public DisplayConsole(string name)
     {
         _name = name;
     }
-
     public void Update(string messaggio)
     {
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
+    
 }
-public class DisplayMobile : IObserver
-{
+public class DisplayMobile : IObserver {
     private readonly string _name;
-
-    public DisplayMobile(string name)
-    {
+    public DisplayMobile(string name) {
         _name = name;
     }
-
     public void Update(string messaggio) {
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
 }
-
 // 5. Client: crea il subject e alcuni observer, e modella cambi di stato
-class Program
-{
-    static void Main()
-    {
+class Program {
+    static void Main() {
+
         var centro = new CentroMeteo();
 
         var osservatore1 = new DisplayConsole("Display Sala Controllo");
@@ -85,11 +80,32 @@ class Program
 
         centro.Registra(osservatore1);
         centro.Registra(osservatore2);
-
-        centro.State = "Soleggiato con 25°C";
+        bool continua = true;
+        while (continua)
+        {
+            Console.WriteLine("\n1. Inserisci aggiornamento meteo\n0. Esci");
+            Console.Write("Scelta: ");
+            string scelta = Console.ReadLine();
+            switch (scelta)
+            {
+                case "1":
+                    Console.Write("Inserisci nuove condizioni meteo: ");
+                    string dati = Console.ReadLine();
+                    centro.AggiornaMeteo(dati);
+                    break;
+                case "0":
+                    continua = false;
+                    break;
+                default:
+                Console.WriteLine("Scelta non valida.");
+                    break;
+            }
+            
+        }
+        /*centro.State = "Soleggiato con 25°C";
         centro.State = "Temporale in arrivo";
 
         centro.Rimuovi(osservatore1);
-        centro.State = "Nevicata prevista domani";
+        centro.State = "Nevicata prevista domani";*/
     }
 }
