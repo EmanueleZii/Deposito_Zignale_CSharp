@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/bin/Debug/net8.0/EsempioDecorator
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/bin/Debug/net8.0/EsempioDecorator.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/bin/Debug/net8.0/EsempioDecorator.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/bin/Debug/net8.0/EsempioDecorator.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/bin/Debug/net8.0/EsempioDecorator.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/refint/EsempioDecorator.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/EsempioDecorator.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Decorator/Esercizio1Decorator/obj/Debug/net8.0/ref/EsempioDecorator.dll
