@@ -53,6 +53,7 @@ public class EmailClient : INewsSubscriber {
 // Programma principale
 class Program {
     static void Main() {
+        
         INewsAgency agency = NewsAgency.Instance;
         var mobile = new MobileApp();
         var email = new EmailClient();
@@ -60,8 +61,7 @@ class Program {
         agency.Register(mobile);
         agency.Register(email);
         bool continua = true;
-        while (continua)
-        {
+        while (continua) {
             Console.Write("Inserisci una news (vuoto per uscire): ");
             string news = Console.ReadLine();
             agency.News = news;
