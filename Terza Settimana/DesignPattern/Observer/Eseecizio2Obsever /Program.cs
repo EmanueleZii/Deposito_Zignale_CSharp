@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
-public interface INewsSubscriber
-{
+public interface INewsSubscriber {
     void Update(string news);
 }
-public interface INewsAgency
-{
+public interface INewsAgency {
     string News { get; set; }
     void Register(INewsSubscriber subscriber);
     void Remove(INewsSubscriber subscriber);
@@ -31,7 +28,6 @@ public sealed class NewsAgency : INewsAgency {
             NotifyAll();
         }
     }
-
     public void Register(INewsSubscriber subscriber) {
         if (!_subscribers.Contains(subscriber))
             _subscribers.Add(subscriber);
@@ -44,26 +40,19 @@ public sealed class NewsAgency : INewsAgency {
             s.Update(_news);
     }
 }
-public class MobileApp : INewsSubscriber
-{
-    public void Update(string news)
-    {
+public class MobileApp : INewsSubscriber {
+    public void Update(string news) {
         Console.WriteLine($"notifica {news}");
     }
 }
-public class EmailClient : INewsSubscriber
-{
-    public void Update(string news)
-    {
+public class EmailClient : INewsSubscriber {
+    public void Update(string news) {
         Console.WriteLine($"notifica {news}");
     }
 } 
-
 // Programma principale
-class Program
-{
-    static void Main()
-    {
+class Program {
+    static void Main() {
         INewsAgency agency = NewsAgency.Instance;
         var mobile = new MobileApp();
         var email = new EmailClient();
