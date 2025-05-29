@@ -87,7 +87,7 @@
   <li>Gestione degli script in Unity</li>
   <li>Project work finale</li>
 </ul>
-<h1>Link alle repository dei Esercizi di Gruppo</h1>
+<h1>Link alle repository degli Esercizi di Gruppo</h1>
 <ul>
 <li><a href="https://github.com/EmanueleZii/Esercizio_Corso_Csharp">Esercizio-1 Di Gruppo </a></li>
 <li><a href="https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-">Esercizio-2 Di Gruppo </a></li>
