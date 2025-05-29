@@ -90,20 +90,21 @@ public class ModuloMarketing : IObserver
     }
 }
 // Programma principale
-class Program
-{
-    static void Main()
-    {
+class Program {
+    
+    static void Main() {
+
         var gestione = GestioneCreazioneUtente.Instance;
         IObserver moduloLog = new ModuloLog();
         IObserver moduloMark = new ModuloMarketing();
 
         gestione.Register(moduloLog);
         gestione.Register(moduloMark);
+
         bool continua = true;
         string nome = "";
-        while (continua)
-        {
+
+        while (continua) {
             Console.WriteLine("Scegli dalle Opzioni\n 1 .Crea un utente \n 2 .esci");
             int Scelta = int.Parse(Console.ReadLine());
             if (Scelta == 1)
