@@ -4,8 +4,7 @@ using System.Collections.Generic;
 public interface IObserver {
     void NotificaCreazione(string nomeUtente);
 }
-public interface ISoggetto
-{
+public interface ISoggetto {
     string nomeUtente { get; set; }
     void Register(IObserver subscriber);
     void Remove(IObserver subscriber);
@@ -56,10 +55,8 @@ public class GestioneCreazioneUtente : ISoggetto {
     }
 }
 //classe user Factory
-public static class UserFactory
-{
-    public static Utente Crea(string nome)
-    {
+public static class UserFactory {
+    public static Utente Crea(string nome) {
         return new Utente(nome);
     }
 }
@@ -84,19 +81,16 @@ class Program {
         gestione.Register(moduloMark);
         bool continua = true;
         string nome = "";
-        while (continua)
-        {
+        while (continua) {
             //menu
             Console.WriteLine("Scegli dalle Opzioni\n 1 .Crea un utente \n 2 .esci");
             int Scelta = int.Parse(Console.ReadLine());
-            if (Scelta == 1)
-            {
+            if (Scelta == 1) {
                 Console.WriteLine("Inserisci nome utente:");
                 nome = Console.ReadLine();
                 gestione.nomeUtente = nome;
             }
-            if (Scelta == 2)
-            {
+            if (Scelta == 2) {
                 Console.Clear();
                 continua = false;
             }
