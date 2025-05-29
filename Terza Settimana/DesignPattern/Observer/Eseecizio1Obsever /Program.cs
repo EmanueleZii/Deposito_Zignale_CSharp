@@ -16,23 +16,20 @@ public class CentroMeteo : ISoggetto
 {
     private readonly List<IObserver> _observers = new List<IObserver>();
     private string _state;
-    public string State
-    {
+    public string State {
         get => _state;
-        set
-        {
+        set {
             _state = value;
             Notifica(_state);
         }
     }
-    public void Registra(IObserver observer)
-    {
+    public void Registra(IObserver observer) {
         _observers.Add(observer);
     }
-    public void Rimuovi(IObserver observer)
-    {
+    public void Rimuovi(IObserver observer) {
         _observers.Remove(observer);
     }
+    // Versione richiesta dall'interfaccia
     public void Notifica(string messaggio)
     {
         foreach (var observer in _observers)
@@ -40,17 +37,37 @@ public class CentroMeteo : ISoggetto
             observer.Update(messaggio);
         }
     }
-    public void AggiornaMeteo(string dati)
+
+    public void Notifica(string messaggio, Type targetType = null)
     {
+        foreach (var observer in _observers)
+        {
+            if (targetType == null || observer.GetType() == targetType)
+            {
+                observer.Update(messaggio);
+            }
+        }
+    }
+    public void AggiornaMeteo(string dati, Type targetType = null) {
         Console.WriteLine("Aggiornamento meteo: " + dati);
-        Notifica(dati);
+        Notifica(dati, targetType);
     }
 }
 // 4. ConcreteObserver: implementa la logica di reazione alla notifica
-public class DisplayConsole : IObserver
+public class DisplayConsole : IObserver {
+    private readonly string _name;
+    public DisplayConsole(string name) {
+        _name = name;
+    }
+    public void Update(string messaggio) {
+        Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
+    }
+    
+}
+public class DisplayMobile : IObserver
 {
     private readonly string _name;
-    public DisplayConsole(string name)
+    public DisplayMobile(string name)
     {
         _name = name;
     }
@@ -58,11 +75,11 @@ public class DisplayConsole : IObserver
     {
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
-    
 }
-public class DisplayMobile : IObserver {
+
+public class DisplayPC : IObserver {
     private readonly string _name;
-    public DisplayMobile(string name) {
+    public DisplayPC(string name) {
         _name = name;
     }
     public void Update(string messaggio) {
@@ -70,41 +87,54 @@ public class DisplayMobile : IObserver {
     }
 }
 // 5. Client: crea il subject e alcuni observer, e modella cambi di stato
-class Program {
-    static void Main() {
+class Program
+{
+    static void Main()
+    {
 
         var centro = new CentroMeteo();
-
-        var osservatore1 = new DisplayConsole("Display Sala Controllo");
+        /*var osservatore1 = new DisplayConsole("Display Sala Controllo");
         var osservatore2 = new DisplayMobile("App Mobile");
-
+        var osservatore3 = new DisplayPC("Pc");
         centro.Registra(osservatore1);
-        centro.Registra(osservatore2);
+        centro.Registra(osservatore2);*/
         bool continua = true;
         while (continua)
         {
+
             Console.WriteLine("\n1. Inserisci aggiornamento meteo\n0. Esci");
             Console.Write("Scelta: ");
             string scelta = Console.ReadLine();
             switch (scelta)
             {
+
                 case "1":
                     Console.Write("Inserisci nuove condizioni meteo: ");
                     string dati = Console.ReadLine();
                     centro.AggiornaMeteo(dati);
+                    Console.WriteLine("Scegli dove notificare?");
+                    Console.WriteLine("1. mobile");
+                    Console.WriteLine("2. Console");
+                    Console.WriteLine("3. PC");
+                    Type tipo = null;
+                    int scelta2 = int.Parse(Console.ReadLine());
+                    if (scelta2 == 1)
+                        tipo = typeof(DisplayMobile);
+                    if (scelta2 == 2)
+                        tipo = typeof(DisplayConsole);
+                    if (scelta2 == 3)
+                        tipo = typeof(DisplayPC);
                     break;
                 case "0":
                     continua = false;
                     break;
                 default:
-                Console.WriteLine("Scelta non valida.");
+                    Console.WriteLine("Scelta non valida.");
                     break;
             }
-            
         }
-        /*centro.State = "Soleggiato con 25°C";
+        /* centro.State = "Soleggiato con 25°C";
         centro.State = "Temporale in arrivo";
-
         centro.Rimuovi(osservatore1);
         centro.State = "Nevicata prevista domani";*/
     }
