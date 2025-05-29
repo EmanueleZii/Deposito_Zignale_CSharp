@@ -21,30 +21,24 @@ public class CentroMeteo : ISoggetto
     private readonly List<IObserver> _observers = new List<IObserver>();
     private string _state;
 
-    public string State
-    {
+    public string State {
         get => _state;
-        set
-        {
+        set {
             _state = value;
             Notifica(_state);
         }
     }
 
-    public void Registra(IObserver observer)
-    {
+    public void Registra(IObserver observer) {
         _observers.Add(observer);
     }
 
-    public void Rimuovi(IObserver observer)
-    {
+    public void Rimuovi(IObserver observer){
         _observers.Remove(observer);
     }
 
-    public void Notifica(string messaggio)
-    {
-        foreach (var observer in _observers)
-        {
+    public void Notifica(string messaggio) {
+        foreach (var observer in _observers) {
             observer.Update(messaggio);
         }
     }
@@ -74,13 +68,10 @@ public class DisplayMobile : IObserver
         _name = name;
     }
 
-    public void Update(string messaggio)
-    {
+    public void Update(string messaggio) {
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
 }
-
-
 
 // 5. Client: crea il subject e alcuni observer, e modella cambi di stato
 class Program
