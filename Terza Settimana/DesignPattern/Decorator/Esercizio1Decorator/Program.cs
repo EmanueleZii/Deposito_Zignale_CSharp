@@ -67,6 +67,7 @@ public class ConcreteConLatte :DecoratoratoreBevanda
     public override void Descrizione()
     {
         base.Descrizione();
+        Console.Write("Con Latte");
     }
     public override double Costo()
     {
@@ -84,6 +85,7 @@ public class ConcreteConCioccolato :DecoratoratoreBevanda
     public override void Descrizione()
     {
         base.Descrizione();
+        Console.Write("Con Cioccolato");
     }
     public override double Costo()
     {
@@ -99,6 +101,7 @@ public class ConcreteConPanna :DecoratoratoreBevanda
     public override void Descrizione()
     {
         base.Descrizione();
+        Console.Write("Con Panna");
     }
     public override double Costo()
     {
@@ -114,9 +117,7 @@ class Program
         Menu();
     }
 
-    public static void Menu()
-    {
-
+    public static void Menu() {
         bool continua = true;
         int sceltacontimento = 0;
         while (continua)
