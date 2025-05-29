@@ -13,6 +13,11 @@ public class Utente
 {
     public string nome;
 
+    public Utente(string _name)
+    {
+        nome = _name;
+    }
+
     public override string ToString()
     {
         return base.ToString();
@@ -59,7 +64,7 @@ public class GestioneCreazioneUtente : ISoggetto
     }
     private Utente CreaUtente(string nome)
     {
-        return new Utente();
+        return new Utente(nome);
     }
 }
 
@@ -67,7 +72,7 @@ public static class UserFactory
 {
     public static Utente Crea(string nome)
     {
-        return new Utente();
+        return new Utente(nome);
     }
 }
 public class ModuloLog : IObserver
