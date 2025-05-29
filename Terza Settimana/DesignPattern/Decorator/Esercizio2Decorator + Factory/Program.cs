@@ -28,8 +28,6 @@ public class TortaFrutta : ITorta
         return "Torta alla frutta";
     }
 }
-// 3. Decorator: classe astratta che implementa IComponent 
-//    e incapsula un IComponent interno
 public abstract class DecoratoratoreTorta : ITorta
 {
     // Riferimento al componente "decorato"
