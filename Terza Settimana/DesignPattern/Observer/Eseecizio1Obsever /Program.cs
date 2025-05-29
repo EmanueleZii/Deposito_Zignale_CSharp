@@ -38,12 +38,9 @@ public class CentroMeteo : ISoggetto
         }
     }
 
-    public void Notifica(string messaggio, Type targetType = null)
-    {
-        foreach (var observer in _observers)
-        {
-            if (targetType == null || observer.GetType() == targetType)
-            {
+    public void Notifica(string messaggio, Type targetType = null) {
+        foreach (var observer in _observers) {
+            if (targetType == null || observer.GetType() == targetType) {
                 observer.Update(messaggio);
             }
         }
@@ -62,7 +59,6 @@ public class DisplayConsole : IObserver {
     public void Update(string messaggio) {
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
-    
 }
 public class DisplayMobile : IObserver
 {
@@ -76,7 +72,6 @@ public class DisplayMobile : IObserver
         Console.WriteLine($"{_name} ha ricevuto aggiornamento meteo: {messaggio}");
     }
 }
-
 public class DisplayPC : IObserver {
     private readonly string _name;
     public DisplayPC(string name) {
@@ -87,27 +82,15 @@ public class DisplayPC : IObserver {
     }
 }
 // 5. Client: crea il subject e alcuni observer, e modella cambi di stato
-class Program
-{
-    static void Main()
-    {
-
+class Program {
+    static void Main() {
         var centro = new CentroMeteo();
-        /*var osservatore1 = new DisplayConsole("Display Sala Controllo");
-        var osservatore2 = new DisplayMobile("App Mobile");
-        var osservatore3 = new DisplayPC("Pc");
-        centro.Registra(osservatore1);
-        centro.Registra(osservatore2);*/
         bool continua = true;
-        while (continua)
-        {
-
+        while (continua) {
             Console.WriteLine("\n1. Inserisci aggiornamento meteo\n0. Esci");
             Console.Write("Scelta: ");
             string scelta = Console.ReadLine();
-            switch (scelta)
-            {
-
+            switch (scelta) {
                 case "1":
                     Console.Write("Inserisci nuove condizioni meteo: ");
                     string dati = Console.ReadLine();
