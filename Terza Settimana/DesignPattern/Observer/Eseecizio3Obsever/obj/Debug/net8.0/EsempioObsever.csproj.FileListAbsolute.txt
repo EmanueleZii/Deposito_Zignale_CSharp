@@ -28,3 +28,18 @@
 /Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio1Obsever /obj/Debug/net8.0/EsempioObsever.pdb
 /Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio1Obsever /obj/Debug/net8.0/EsempioObsever.genruntimeconfig.cache
 /Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio1Obsever /obj/Debug/net8.0/ref/EsempioObsever.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/bin/Debug/net8.0/EsempioObsever
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/bin/Debug/net8.0/EsempioObsever.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/bin/Debug/net8.0/EsempioObsever.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/bin/Debug/net8.0/EsempioObsever.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/bin/Debug/net8.0/EsempioObsever.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/refint/EsempioObsever.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/EsempioObsever.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Observer/Eseecizio3Obsever/obj/Debug/net8.0/ref/EsempioObsever.dll

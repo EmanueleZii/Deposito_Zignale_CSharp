@@ -100,9 +100,23 @@ class Program
 
         gestione.Register(moduloLog);
         gestione.Register(moduloMark);
-
-        Console.WriteLine("Inserisci nome utente");
-        string nome = Console.ReadLine();
-        gestione.nomeUtente = nome;
+        bool continua = true;
+        string nome = "";
+        while (continua)
+        {
+            Console.WriteLine("Scegli dalle Opzioni\n 1 .Crea un utente \n 2 .esci");
+            int Scelta = int.Parse(Console.ReadLine());
+            if (Scelta == 1)
+            {
+                Console.WriteLine("Inserisci nome utente:");
+                nome = Console.ReadLine();
+                gestione.nomeUtente = nome;
+            }
+            if (Scelta == 2)
+            {
+                Console.Clear();
+                continua = false;
+            }
+        }
     }
 }
