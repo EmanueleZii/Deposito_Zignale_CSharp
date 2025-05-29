@@ -75,17 +75,13 @@ public static class UserFactory
         return new Utente(nome);
     }
 }
-public class ModuloLog : IObserver
-{
-    public void NotificaCreazione(string nomeUtente)
-    {
+public class ModuloLog : IObserver {
+    public void NotificaCreazione(string nomeUtente) {
         Console.WriteLine($"nome : {nomeUtente}");
     }
 }
-public class ModuloMarketing : IObserver
-{
-    public void NotificaCreazione(string nomeUtente)
-    {
+public class ModuloMarketing : IObserver {
+    public void NotificaCreazione(string nomeUtente) {
         Console.WriteLine($"nome : {nomeUtente}");
     }
 }

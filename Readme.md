@@ -71,6 +71,7 @@
 </ul>
 
 <h3>Argomenti avanzati e introduzione a progetti più complessi</h3>
+<span>(Seconda Settimana)</span>
 <ul>
   <li>Gestione delle eccezioni (<code>try</code>, <code>catch</code>, <code>finally</code>, <code>throw</code>)</li>
   <li>Lettura/scrittura di file di testo, gestione di stream</li>
