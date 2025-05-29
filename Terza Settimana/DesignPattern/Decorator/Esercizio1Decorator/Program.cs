@@ -111,14 +111,89 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Ordine 1: Caffè con Latte e Cioccolato");
-        IBevanda bevanda1 = new ConcreteConCioccolato(new ConcreteConLatte(new Caffe()));
-        bevanda1.Descrizione();
-        Console.WriteLine("Costo: €" + bevanda1.Costo());
+        Menu();
+    }
 
-        Console.WriteLine("\nOrdine 2: Tè con Panna");
-        IBevanda bevanda2 = new ConcreteConPanna(new Te());
-        bevanda2.Descrizione();
-        Console.WriteLine("Costo: €" + bevanda2.Costo());
+    public static void Menu()
+    {
+
+        bool continua = true;
+        int sceltacontimento = 0;
+        while (continua)
+        {
+            Console.WriteLine("Scegli la bevanda");
+            Console.WriteLine("1. Caffe");
+            Console.WriteLine("2. Te");
+            Console.WriteLine("3. Esci");
+            int scelta = int.Parse(Console.ReadLine());
+            switch (scelta)
+            {
+                case 1:
+                    Console.WriteLine("Hai scelto il caffe");
+                    Console.WriteLine("Vuoi qualcosa nel Caffe?\n 0.solocaffe \n 1. latte\n 2. con cioccolato\n 3.panna");
+                    sceltacontimento = int.Parse(Console.ReadLine());
+                    if (sceltacontimento == 0)
+                    {
+                        IBevanda bevanda1 = new Caffe();
+                        bevanda1.Descrizione();
+                        bevanda1.Costo();
+                    }
+                    if (sceltacontimento == 1)
+                    {
+                        IBevanda bevanda2 = new ConcreteConLatte(new Caffe());
+                        bevanda2.Descrizione();
+                        bevanda2.Costo();
+                    }
+                    if (sceltacontimento == 2)
+                    {
+                        IBevanda bevanda3 = new ConcreteConCioccolato(new Caffe());
+                        bevanda3.Descrizione();
+                        bevanda3.Costo();
+                    }
+                    if (sceltacontimento == 3)
+                    {
+                        IBevanda bevanda3 = new ConcreteConPanna(new Caffe());
+                        bevanda3.Descrizione();
+                        bevanda3.Costo();
+                    }
+                    break;
+                case 2:
+                    Console.WriteLine("Hai scelto il te");
+                    Console.WriteLine("Vuoi qualcosa nel Caffe?\n0.solocaffe \n1. latte \n2. con cioccolato \n 3.panna");
+                    sceltacontimento = int.Parse(Console.ReadLine());
+                    if (sceltacontimento == 0)
+                    {
+                        IBevanda bevanda1 = new Te();
+                        bevanda1.Descrizione();
+                        bevanda1.Costo();
+                    }
+                    if (sceltacontimento == 1)
+                    {
+                        IBevanda bevanda2 = new ConcreteConLatte(new Te());
+                        bevanda2.Descrizione();
+                        bevanda2.Costo();
+                    }
+                    if (sceltacontimento == 2)
+                    {
+                        IBevanda bevanda3 = new ConcreteConCioccolato(new Te());
+                        bevanda3.Descrizione();
+                        bevanda3.Costo();
+                    }
+                    if (sceltacontimento == 3)
+                    {
+                        IBevanda bevanda3 = new ConcreteConPanna(new Te());
+                        bevanda3.Descrizione();
+                        bevanda3.Costo();
+                    }
+                    break;
+                case 3:
+                    continua = false;
+                    break;
+                default:
+                    Console.WriteLine("Scelta non valida");
+                    break;
+            }
+
+        }
     }
 }
