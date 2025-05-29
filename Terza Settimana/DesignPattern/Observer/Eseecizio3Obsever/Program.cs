@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+//interfaccie del observer
 public interface IObserver {
     void NotificaCreazione(string nomeUtente);
 }
@@ -9,65 +10,52 @@ public interface ISoggetto
     void Register(IObserver subscriber);
     void Remove(IObserver subscriber);
 }
-public class Utente
-{
+// classe utente
+public class Utente {
     public string nome;
-
-    public Utente(string _name)
-    {
+    public Utente(string _name) {
         nome = _name;
     }
-
-    public override string ToString()
-    {
+    public override string ToString() {
         return base.ToString();
     }
 }
 //singleton
-public class GestioneCreazioneUtente : ISoggetto
-{
+public class GestioneCreazioneUtente : ISoggetto {
     private static GestioneCreazioneUtente _instance;
     private List<IObserver> _subscribers = new List<IObserver>();
     private string _nome_utente;
     private GestioneCreazioneUtente() { }
-    public static GestioneCreazioneUtente Instance
-    {
-        get
-        {
+    public static GestioneCreazioneUtente Instance {
+        get {
             if (_instance == null)
                 _instance = new GestioneCreazioneUtente();
             return _instance;
         }
     }
-    public string nomeUtente
-    {
+    public string nomeUtente {
         get => _nome_utente;
-        set
-        {
+        set {
             _nome_utente = value;
             NotifyAll();
         }
     }
-    public void Register(IObserver subscriber)
-    {
+    public void Register(IObserver subscriber) {
         if (!_subscribers.Contains(subscriber))
             _subscribers.Add(subscriber);
     }
-    public void Remove(IObserver subscriber)
-    {
+    public void Remove(IObserver subscriber) {
         _subscribers.Remove(subscriber);
     }
-    private void NotifyAll()
-    {
+    private void NotifyAll() {
         foreach (var s in _subscribers)
             s.NotificaCreazione(_nome_utente);
     }
-    private Utente CreaUtente(string nome)
-    {
+    private Utente CreaUtente(string nome) {
         return new Utente(nome);
     }
 }
-
+//classe user Factory
 public static class UserFactory
 {
     public static Utente Crea(string nome)
@@ -75,6 +63,7 @@ public static class UserFactory
         return new Utente(nome);
     }
 }
+// classi di Observer
 public class ModuloLog : IObserver {
     public void NotificaCreazione(string nomeUtente) {
         Console.WriteLine($"nome : {nomeUtente}");
@@ -87,20 +76,17 @@ public class ModuloMarketing : IObserver {
 }
 // Programma principale
 class Program {
-    
     static void Main() {
-
         var gestione = GestioneCreazioneUtente.Instance;
         IObserver moduloLog = new ModuloLog();
         IObserver moduloMark = new ModuloMarketing();
-
         gestione.Register(moduloLog);
         gestione.Register(moduloMark);
-
         bool continua = true;
         string nome = "";
-
-        while (continua) {
+        while (continua)
+        {
+            //menu
             Console.WriteLine("Scegli dalle Opzioni\n 1 .Crea un utente \n 2 .esci");
             int Scelta = int.Parse(Console.ReadLine());
             if (Scelta == 1)
