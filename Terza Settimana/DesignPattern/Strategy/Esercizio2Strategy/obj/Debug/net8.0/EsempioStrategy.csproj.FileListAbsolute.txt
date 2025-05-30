@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/bin/Debug/net8.0/EsempioStrategy
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/bin/Debug/net8.0/EsempioStrategy.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/bin/Debug/net8.0/EsempioStrategy.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/bin/Debug/net8.0/EsempioStrategy.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/bin/Debug/net8.0/EsempioStrategy.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/refint/EsempioStrategy.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/EsempioStrategy.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Terza Settimana/DesignPattern/Strategy/Esercizio1Strategy/obj/Debug/net8.0/ref/EsempioStrategy.dll
