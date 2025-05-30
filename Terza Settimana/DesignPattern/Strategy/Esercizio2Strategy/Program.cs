@@ -1,112 +1,80 @@
 ﻿using System;
-
-public interface IPiatto
-{
+public interface IPiatto {
     string Descrizione();
     string Prepara();
 }
-
-public class Pizza : IPiatto
-{
-    public string Descrizione()
-    {
+public class Pizza : IPiatto {
+    public string Descrizione(){
         return "Pizza";
-
     }
-    public string Prepara()
-    {
+    public string Prepara() {
         return "Preparazione Base Pizza";
     }
 
 }
-public class Hamburger : IPiatto
-{
-    public string Descrizione()
-    {
+public class Hamburger : IPiatto {
+    public string Descrizione() {
         return "Hamburger";
     }
-    public string Prepara()
-    {
+    public string Prepara() {
         return "Preparazione Base Hamburger";
     }
 }
 
-public class Insalata : IPiatto
-{
-    public string Descrizione()
-    {
+public class Insalata : IPiatto {
+    public string Descrizione() {
         return "Hamburger";
     }
-    public string Prepara()
-    {
+    public string Prepara() {
         return "Preparazione Base Hamburger";
     }
 }
 
-public abstract class IngredienteExtra : IPiatto
-{
+public abstract class IngredienteExtra : IPiatto {
     protected IPiatto _piatto;
-    public IngredienteExtra(IPiatto piatto)
-    {
+    public IngredienteExtra(IPiatto piatto) {
         piatto = _piatto;
     }
-
     public abstract string Descrizione();
-
-    public string Prepara()
-    {
+    public string Prepara() {
         return _piatto.Prepara();
     }
 }
-
-public class ConBacon : IngredienteExtra
-{
+public class ConBacon : IngredienteExtra {
     public ConBacon(IPiatto piatto) : base(piatto) { }
 
-    public override string Descrizione()
-    {
+    public override string Descrizione() {
         return "Con Bacon";
     }
 
-    public string Prepara()
-    {
+    public string Prepara() {
         return _piatto.Prepara() + "ConBacon";
     }
 }
-public class ConFormaggio : IngredienteExtra
-{
+public class ConFormaggio : IngredienteExtra{
     public ConFormaggio(IPiatto piatto) : base(piatto) { }
 
-    public override string Descrizione()
-    {
+    public override string Descrizione() {
         return "Con Formaggio";
     }
-
-    public string Prepara()
-    {
+    public string Prepara() {
         return _piatto.Prepara() + "Con Formaggio";
     }
 }
-
-public class ConSalsa : IngredienteExtra
-{
+public class ConSalsa : IngredienteExtra {
     public ConSalsa(IPiatto piatto) : base(piatto) { }
 
-    public override string Descrizione()
-    {
+    public override string Descrizione() {
         return "Con Salsa";
     }
 
-    public string Prepara()
-    {
+    public string Prepara() {
         return _piatto.Prepara() + "Con Salsa";
     }
 }
 public static class PiattoFactory {
-    public static IPiatto Crea(string tipo)
-    {
-        switch (tipo.ToLower())
-        {
+    public static IPiatto Crea(string tipo) {
+        switch (tipo.ToLower()) {
             case "pizza":
                 return new Pizza();
             case "Hamburer":
@@ -118,22 +86,17 @@ public static class PiattoFactory {
         }
     }
 }
-public interface IPreparazioneStrategia
-{
+public interface IPreparazioneStrategia {
     string Prepara(string descrizione);
 }
 
-public class Fritto : IPreparazioneStrategia
-{
-    public string Prepara(string descrizione)
-    {
+public class Fritto : IPreparazioneStrategia {
+    public string Prepara(string descrizione){
         return "Fritto";
     }
 }
-public class Forno : IPreparazioneStrategia
-{
-    public string Prepara(string descrizione)
-    {
+public class Forno : IPreparazioneStrategia {
+    public string Prepara(string descrizione){
         return "Forno";
     }
 }
