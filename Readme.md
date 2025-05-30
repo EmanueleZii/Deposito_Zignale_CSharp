@@ -87,9 +87,10 @@
   <li>Gestione degli script in Unity</li>
   <li>Project work finale</li>
 </ul>
-<h1>Link alle repository degli Esercizi di Gruppo</h1>
+<h1>Link alle repository degli Esercizi di Gruppo e Individuali </h1>
 <ul>
 <li><a href="https://github.com/EmanueleZii/Esercizio_Corso_Csharp">Esercizio-1 Di Gruppo </a></li>
 <li><a href="https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-">Esercizio-2 Di Gruppo </a></li>
 <li><a href="https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-">Esercizio-3 Di Gruppo </a></li>
+<li><a href="https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp">Esercizio-4 Individuale </a></li>
 </ul>
