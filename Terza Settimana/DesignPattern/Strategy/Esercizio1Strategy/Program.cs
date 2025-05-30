@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-// 1. Strategy: definisce l'interfaccia comune per tutti gli algoritmi
+// 1.l'interfaccia comune per tutti gli algoritmi
 public interface IStrategyOperazione {
-    // Ad esempio, elaborare una lista di numeri in modi diversi
     double Calcola(double a, double b);
 }
-// 2. ConcreteStrategyAdd: implementa la somma
+// 2. ConcreteSomma: implementa la somma
 public class ConcreteSomma : IStrategyOperazione {
     public double Calcola(double a, double b) {
         return a + b;
@@ -25,6 +24,7 @@ public class ConcreteMoltiplicazione : IStrategyOperazione
         return a * b;
     }
 }
+// 4. ConcreteDivisione: implementa la Divisione
 public class ConcreteDivisione : IStrategyOperazione {
     public double Calcola(double a, double b) {
         return a / b;
