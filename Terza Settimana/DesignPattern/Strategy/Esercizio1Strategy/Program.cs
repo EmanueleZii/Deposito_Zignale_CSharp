@@ -17,17 +17,23 @@ public class ConcreteSottrazione : IStrategyOperazione {
     }
 }
 // 4. ConcreteMoltiplicazione: implementa la moltiplicazione
-public class ConcreteMoltiplicazione : IStrategyOperazione
-{
-    public double Calcola(double a, double b)
-    {
+public class ConcreteMoltiplicazione : IStrategyOperazione {
+    public double Calcola(double a, double b) {
         return a * b;
     }
 }
 // 4. ConcreteDivisione: implementa la Divisione
 public class ConcreteDivisione : IStrategyOperazione {
     public double Calcola(double a, double b) {
-        return a / b;
+        try
+        {
+            return a / b;
+        }
+        catch (DivideByZeroException e)
+        {
+            Console.WriteLine("Impossibile dividere per zero..");
+            return 0.00;
+        }
     }
 }
 // 5. Context: utilizza una strategia per eseguire l'operazione
@@ -62,14 +68,11 @@ class Program {
             Console.WriteLine("0. Esci");
             Console.Write("Scegli un'operazione: ");
             string scelta = Console.ReadLine();
-
             if (scelta == "0") break;
-
             Console.Write("Inserisci il primo numero: ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.Write("Inserisci il secondo numero: ");
             double b = Convert.ToDouble(Console.ReadLine());
-
             switch (scelta) {
                 case "1":
                     calcolatrice.IpostaStrategiaOperazione(new ConcreteSomma());
@@ -87,7 +90,6 @@ class Program {
                     Console.WriteLine("Scelta non valida.");
                     continue;
             }
-
             calcolatrice.EseguiOperazione(a, b);
         }
     }
