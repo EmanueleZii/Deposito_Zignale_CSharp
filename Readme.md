@@ -80,7 +80,7 @@
 </ul>
 
 <h3>Unity e Interfaccia grafica</h3>
-<span>Quarta Settimana</span>
+<span>(Quarta Settimana)</span>
 <ul>
   <li>Introduzione e configurazione Unity</li>
   <li>Integrazione di modelli 3D</li>
