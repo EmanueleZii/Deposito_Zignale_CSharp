@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/Enum.csproj",
+      "projectUniqueName": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/enum/Esercizio1Enum/Enum.csproj",
       "projectName": "Enum",
-      "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/Enum.csproj",
+      "projectPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/enum/Esercizio1Enum/Enum.csproj",
       "packagesPath": "/Users/emanuele/.nuget/packages/",
-      "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/",
+      "outputPath": "/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/enum/Esercizio1Enum/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/Users/emanuele/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"

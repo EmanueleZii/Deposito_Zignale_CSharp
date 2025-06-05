@@ -1,8 +1,5 @@
 ﻿using System;
-
-public class Programs
-{
-    public enum GiorniDellaSettimana
+public enum GiorniDellaSettimana
     {
         lunedi,
         martedi,
@@ -12,11 +9,14 @@ public class Programs
         sabato,
         domenica
     }
-    public static void Main()
+public class Programs
+{
+
+    public void Main()
     {
         Console.WriteLine("Seleziona un giorno della settimana");
         Console.WriteLine("1.lunedi\n 2. Martedi \n 3.Mercoledi \n 4.Giovedi \n .5 venerdi\n 6.sabato \n .7 domenica");
-        
+
         string scelta = Console.ReadLine().ToLower();
 
         if (scelta == GiorniDellaSettimana.lunedi.ToString().ToLower())
@@ -36,3 +36,4 @@ public class Programs
 
     }
 }
+

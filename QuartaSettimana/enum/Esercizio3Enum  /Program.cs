@@ -9,7 +9,7 @@ enum TipoTransazione
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         decimal importo = 100m;
         Console.WriteLine($"Commissione Acquisto: {CalcolaCommissione(importo, TipoTransazione.Acquisto)}");
