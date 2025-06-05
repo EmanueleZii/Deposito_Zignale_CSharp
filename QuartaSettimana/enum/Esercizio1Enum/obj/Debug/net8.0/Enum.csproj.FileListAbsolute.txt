@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/bin/Debug/net8.0/Enum
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/bin/Debug/net8.0/Enum.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/bin/Debug/net8.0/Enum.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/bin/Debug/net8.0/Enum.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/bin/Debug/net8.0/Enum.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/refint/Enum.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/Enum.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/QuartaSettimana/Enum/obj/Debug/net8.0/ref/Enum.dll
