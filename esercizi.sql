@@ -1,3 +1,81 @@
+/* 
+create database ristorante; 
+
+create table utente (
+   utente_id int not null,
+   nome varchar(255),
+   cognome varchar(255),
+   telefono varchar(15),
+   email varchar(255),
+   password varchar(30)
+);
+
+create table cinema
+select title, rating
+from film
+
+alter table utente modify telefono int 
+drop table utente
+
+describe utente;
+*/
+/*create table orders (
+ordineId int not null auto_increment,
+ordernumber int not null,
+id_utente int,
+primary key (ordineId)
+);
+*/
+/* rapporto one to one
+create table persona (
+	persona_id int auto_increment primary key,
+    nome varchar(100)
+);
+
+create table carta_identita(
+	id int auto_increment primary key,
+	numero_documento int unique,
+	persona_id int unique,
+	foreign key (persona_id) references persona(persona_id)
+);
+*/
+/*
+use ristorante;
+
+
+
+
+
+
+
+/*
+
+create table ordine(
+	id int auto_increment primary key,
+	persona_id int,
+	data_ordine date,
+	foreign key(persona_id) references persona(persona_id)
+);
+
+create table attore(
+	attore_id int auto_increment primary key,
+	nome varchar(100)
+);
+
+create table film (
+	film_id int auto_increment primary key,
+	titolo varchar(100)
+);
+
+create table film_attore(
+	attore_id int,
+    film_id int,
+    foreign key (attore_id) references attore(attore_id),
+    foreign key (film_id) references film(film_id),
+    primary key (attore_id, film_id)
+);
+*/
+
 /*
 SELECT customer.first_name, address.address
 FROM customer
@@ -491,14 +569,12 @@ HAVING
     FROM payment GROUP BY customer_id) AS customer_spending
     );
 */    
-use sakila;
-
 /*
 Trova i titoli dei film e il loro rental_rate 
 che hanno un costo di noleggio (rental_rate)
  superiore al rental_rate medio di tutti i film che appartengono
  alla stessa categoria di rating
- */
+ 
  
  SELECT
     f.title,
@@ -518,7 +594,7 @@ WHERE
 ORDER BY
     f.rating, f.title;
     /* fine mio esercizio*/
-    
+/*   
 SELECT
     f.title,
     f.length,
@@ -579,4 +655,110 @@ HAVING
             ) AS actor_rentals
     )
 ORDER BY
-    total_rentals_by_actor DESC, a.last_name, a.first_name;
+    total_rentals_by_actor DESC, a.last_name, a.first_name; */
+    
+    
+    
+    
+    
+/*use ristorante;*/
+    
+  /*
+CREATE TABLE cliente(
+    clienteID INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    cognome VARCHAR(255) NOT NULL,
+    telefono CHAR(12) NOT NULL,
+    email VARCHAR(255) UNIQUE
+);
+
+CREATE TABLE piatto(
+    piattoID INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(255) NOT NULL,
+    descrizione TEXT NOT NULL,
+    prezzo DECIMAL (10,2) NOT NULL,
+    categoria VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE ordine(
+    ordineID INT PRIMARY KEY AUTO_INCREMENT,
+    prenotazioneREF INT NOT NULL,
+    piattoREF INT NOT NULL,
+    quantita INT NOT NULL,
+    FOREIGN KEY (prenotazioneREF) REFERENCES Prenotazione (prenotazioneID),
+    FOREIGN KEY (piattoREF) REFERENCES Piatto (piattoID)
+);
+
+CREATE TABLE prenotazione(
+    prenotazioneID INT PRIMARY KEY AUTO_INCREMENT,
+    clienteREF INT NOT NULL,
+    dataPrenotazione DATE NOT NULL,
+    orario TIME NOT NULL,
+    numeroPersone INT NOT NULL,
+    FOREIGN KEY (clienteREF) REFERENCES Cliente(clienteID)
+);
+CREATE TABLE Ingrediente(
+    ingredienteID INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL
+);
+CREATE TABLE PiattoIngrediente(
+    piattoREF INT NOT NULL,
+    ingredienteREF INT NOT NULL,
+    quantita VARCHAR(50),
+
+    PRIMARY KEY (piattoREF, ingredienteREF),
+    FOREIGN KEY (piattoREF) REFERENCES Piatto(piattoID),
+    FOREIGN KEY (ingredienteREF) REFERENCES Ingrediente(ingredienteID)
+);
+CREATE TABLE Bevanda(
+    bevandaID INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    descrizione TEXT NOT NULL,
+    prezzo DECIMAL(10,2) NOT NULL,
+    formato VARCHAR(50) NOT NULL 
+);
+
+
+SELECT * FROM Cliente;
+
+SELECT * FROM Prenotazione
+WHERE clienteREF = 1;
+
+SELECT Piatto.nome, Ordine.quantita
+FROM Ordine
+JOIN Piatto ON Ordine.piattoREF = Piatto.piattoID
+WHERE Ordine.prenotazioneREF = 2;
+
+SELECT Ingrediente.nome, PiattoIngrediente.quantita
+FROM PiattoIngrediente
+JOIN Ingrediente ON PiattoIngrediente.ingredienteREF = Ingrediente.ingredienteID
+WHERE PiattoIngrediente.piattoREF = 3;
+
+SELECT * FROM Piatto
+WHERE prezzo > 10.00;
+
+SELECT DISTINCT Cliente.nome, Cliente.cognome
+FROM Cliente
+JOIN Prenotazione ON Cliente.clienteID = Prenotazione.clienteREF
+WHERE Prenotazione.dataPrenotazione > CURDATE();
+
+SELECT * FROM Bevanda
+ORDER BY prezzo DESC;
+
+SELECT prenotazioneREF, SUM(quantita) AS totale_piatti
+FROM Ordine
+GROUP BY prenotazioneREF;
+
+SELECT DISTINCT Piatto.nome
+FROM Piatto
+JOIN PiattoIngrediente ON Piatto.piattoID = PiattoIngrediente.piattoREF
+JOIN Ingrediente ON PiattoIngrediente.ingredienteREF = Ingrediente.ingredienteID
+WHERE Ingrediente.nome = 'Mozzarella';
+
+SELECT Cliente.nome, Cliente.cognome, COUNT(*) AS numero_prenotazioni
+FROM Cliente
+JOIN Prenotazione ON Cliente.clienteID = Prenotazione.clienteREF
+GROUP BY Cliente.clienteID;
+
+*/
+
