@@ -175,7 +175,7 @@ public class Prodotto
     }
     public void TuttiProdottiDisponibili()
     {
-        string connStr = "server=localhost;user=root;database=ristorante;port=3306;password=arcidemone92";
+        string connStr = "server=localhost;user=root;database=;port=3306;password=";
         using (MySqlConnection conn = new MySqlConnection(connStr))
         {
             try
