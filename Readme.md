@@ -11,13 +11,6 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
 - Acquisire familiarità con Visual Studio / Visual Studio Code
 - Prepararsi per progetti reali o colloqui tecnici
 
-## 🛠️ Requisiti
-
- ▶️ Come eseguire gli esercizi
-    VAi nella cartella dell' esercizio:
-     Compila ed esegui con:
-     dotnet run
-
 ## ▶️ Come eseguire gli esercizi
 
 1. Clona la repository:
