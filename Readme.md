@@ -86,24 +86,24 @@ Conoscenze base di programmazione (opzionale)
             -dotnet run
 
    
-##📚 Risorse utili
+## 📚 Risorse utili
 [Stack Overflow](https://stackoverflow.com/questions/tagged/c%23)  
 [Documentazione ufficiale C#](https://learn.microsoft.com/it-it/dotnet/csharp/)
 [DotNet Fiddl (per testare codice online)](https://dotnetfiddle.net/) 
 [W3Schools C# Tutorial](https://www.w3schools.com/cs/) 
    
 
-##✍️ Autore
-     ***Emanuele Zignale Junior Developer Studente Appassionato di C#
+## ✍️ Autore
+  Emanuele Zignale Junior Developer Studente Appassionato di C#
 
-##🔗 Link alle Altre Repository del Corso C#
-    -[Repository della verifica finale della settimana dedicata ai database] (https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp)
+## 🔗 Link alle Altre Repository del Corso C#
+   -[Repository della verifica finale della settimana dedicata ai database] (https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp)
               
-##🕹️ Repository della Parte del Corso Dedicato a Unity
-    -[Repository Unity] (https://github.com/EmanueleZii/Corso_C-SharpUnity)
+## 🕹️ Repository della Parte del Corso Dedicato a Unity
+   -[Repository Unity] (https://github.com/EmanueleZii/Corso_C-SharpUnity)
               
    
-##🧠 Link alle Repository degli Esercizi di Gruppo e Individuali
+## 🧠 Link alle Repository degli Esercizi di Gruppo e Individuali
 
 -[Esercizio-1 Di Gruppo] (https://github.com/EmanueleZii/Esercizio_Corso_Csharp)
 -[Esercizio-2 Di Gruppo] ( https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-)
