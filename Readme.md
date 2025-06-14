@@ -18,14 +18,11 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
 
 
 ## 🛠️ Requisiti
-    <h2>▶️ Come eseguire gli esercizi</h2>
-    <ol>
-        </li>
-        <li>Vai nella cartella dell'esercizio:</li>
-        <li>Compila ed esegui con:
-            <pre><code>dotnet run</code></pre>
-        </li>
-    </ol>
+    -▶️ Come eseguire gli esercizi</h2>
+    -Vai nella cartella dell'esercizio:
+    -Compila ed esegui con:
+            dotnet run
+       
 
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
