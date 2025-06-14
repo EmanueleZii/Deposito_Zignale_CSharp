@@ -69,12 +69,12 @@ Junior Developer & Studente Appassionato di C#
         -Acquisire familiarità con Visual Studio / Visual Studio Code
         -Prepararsi per progetti reali o colloqui tecnici
          
-##🛠️ Requisiti
+## 🛠️ Requisiti
     
 [NET SDK](https://dotnet.microsoft.com/download)
 [Visual Studio] (https://visualstudio.microsoft.com/)
 [Visual Studio Code](https://code.visualstudio.com/)
- Conoscenze base di programmazione (opzionale)
+Conoscenze base di programmazione (opzionale)
  
 ## ▶️ Come eseguire gli esercizi 
 
