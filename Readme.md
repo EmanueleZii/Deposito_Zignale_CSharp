@@ -62,6 +62,7 @@ Junior Developer & Studente Appassionato di C#
 
 🧠 Esercizi di Gruppo e Individuali
     •    Esercizio-1 di Gruppo
+         - [Esercizio Di Gruppo]([https://dotnet.microsoft.com/download](https://github.com/EmanueleZii/Esercizio_Corso_Csharp))
     •    Esercizio-2 di Gruppo
     •    Esercizio-3 di Gruppo
     •    Esercizio-4 Individuale
