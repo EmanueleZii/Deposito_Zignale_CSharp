@@ -20,10 +20,10 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
        
 ## 📚 Risorse utili
 
-1.[.NET SDK](https://dotnet.microsoft.com/download)
-2.[Visual Studio](https://visualstudio.microsoft.com/) oppure 
-3.[Visual Studio Code](https://code.visualstudio.com/)
-4. Conoscenze base di programmazione (opzionale)
+[.NET SDK](https://dotnet.microsoft.com/download)
+[Visual Studio](https://visualstudio.microsoft.com/) oppure 
+[Visual Studio Code](https://code.visualstudio.com/)
+Conoscenze base di programmazione (opzionale)
 
 ## ▶️ Come eseguire gli esercizi
 
