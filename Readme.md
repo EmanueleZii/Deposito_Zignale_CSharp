@@ -27,8 +27,7 @@
             <pre><code>git clone https://github.com/tuo-username/nome-repo-csharp.git
 cd nome-repo-csharp</code></pre>
         </li>
-        <li>Vai nella cartella dell'esercizio:
-        </li>
+        <li>Vai nella cartella dell'esercizio:</li>
         <li>Compila ed esegui con:
             <pre><code>dotnet run</code></pre>
         </li>
@@ -52,26 +51,28 @@ cd nome-repo-csharp</code></pre>
     <h2>✍️ Autore</h2>
     <p><strong>Emanuele Zignale</strong><br>Junior Developer &amp; Studente Appassionato di C#</p>
 
-    
+    <h1>🔗 Link alle Altre Repository del Corso C#</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp">
+                Repository della verifica finale della settimana dedicata ai database
+            </a>
+        </li>
+    </ul>
 
-<h1>🔗 Link alle Altre Repository del Corso C#</h1>
-<ul>
-<li>
-  <a href="https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp">Repository della verificia finale della settimana dedicata ai database </a>
-</li>
-</ul>
+    <h1>🕹️ Repository della Parte del Corso Dedicato a Unity</h1>
+    <ul>
+        <li>
+            <a href="https://github.com/EmanueleZii/Corso_C-SharpUnity">
+                Repository Unity
+            </a>
+        </li>
+    </ul>
 
-<h1>Repository della parte del corso dedicato a Unity </h1>
-<ul>
-<li>
-  <a href="https://github.com/EmanueleZii/Corso_C-SharpUnity">Repository Unity </a>
-</li>
-</ul>
-
-<h1>Link alle repository degli Esercizi di Gruppo e Individuali </h1>
-<ul>
-<li><a href="https://github.com/EmanueleZii/Esercizio_Corso_Csharp">Esercizio-1 Di Gruppo </a></li>
-<li><a href="https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-">Esercizio-2 Di Gruppo </a></li>
-<li><a href="https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-">Esercizio-3 Di Gruppo </a></li>
-<li><a href="https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp">Esercizio-4 Individuale </a></li>
-</ul>
+    <h1>🧠 Link alle Repository degli Esercizi di Gruppo e Individuali</h1>
+    <ul>
+        <li><a href="https://github.com/EmanueleZii/Esercizio_Corso_Csharp">Esercizio-1 Di Gruppo</a></li>
+        <li><a href="https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-">Esercizio-2 Di Gruppo</a></li>
+        <li><a href="https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-">Esercizio-3 Di Gruppo</a></li>
+        <li><a href="https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp">Esercizio-4 Individuale</a></li>
+    </ul>
