@@ -20,9 +20,10 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
        
 ## 📚 Risorse utili
 
-1.- [.NET SDK](https://dotnet.microsoft.com/download)
-2.- [Visual Studio](https://visualstudio.microsoft.com/) oppure [Visual Studio Code](https://code.visualstudio.com/)
-3.- Conoscenze base di programmazione (opzionale)
+1.[.NET SDK](https://dotnet.microsoft.com/download)
+2.[Visual Studio](https://visualstudio.microsoft.com/) oppure 
+3.[Visual Studio Code](https://code.visualstudio.com/)
+4. Conoscenze base di programmazione (opzionale)
 
 ## ▶️ Come eseguire gli esercizi
 
@@ -34,23 +35,21 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
        dotnet run
             
             
-🎯 Suggerimenti per lo studio
-    •    Procedi con ordine dalle lezioni base a quelle avanzate
-    •    Completa sempre gli esercizi dopo ogni lezione
-    •    Modifica e sperimenta con il codice per apprendere meglio
-    •    In caso di dubbi, scrivi nei commenti del codice o usa Stack Overflow
+## 🎯 Suggerimenti per lo studio
+   •    Procedi con ordine dalle lezioni base a quelle avanzate
+   •    Completa sempre gli esercizi dopo ogni lezione
+   •    Modifica e sperimenta con il codice per apprendere meglio
+   •    In caso di dubbi, scrivi nei commenti del codice o usa Stack Overflow
 
-📚 Risorse utili
+## 📚 Risorse utili
     •    Documentazione ufficiale C#
     •    DotNet Fiddle – per testare codice online
     •    W3Schools C# Tutorial
 
-✍️ Autore
+## ✍️ Autore
 
 Emanuele Zignale
 Junior Developer & Studente Appassionato di C#
-
-⸻
 
 🔗 Link alle Altre Repository del Corso C#
     •    Verifica finale: Database
@@ -64,14 +63,12 @@ Junior Developer & Studente Appassionato di C#
     •    Esercizio-3 di Gruppo
     •    Esercizio-4 Individuale
   
-   -Capire la sintassi di base del linguaggio C#
+   - Capire la sintassi di base del linguaggio C#
         -Imparare i concetti fondamentali della programmazione a oggetti (OOP)
         -Sviluppare piccole applicazioni console
         -Acquisire familiarità con Visual Studio / Visual Studio Code
         -Prepararsi per progetti reali o colloqui tecnici
-     -   
-     ## 📂 Struttura della Repository
-      
+         
 ##🛠️ Requisiti
     
 [NET SDK](https://dotnet.microsoft.com/download)
@@ -87,11 +84,11 @@ Junior Developer & Studente Appassionato di C#
             -Vai nella cartella dell'esercizio:
         -Compila ed esegui con:
             -dotnet run
-    ##🎯 Suggerimenti per lo studio
-        -Procedi con ordine dalle lezioni base a quelle avanzate
-        -Completa sempre gli esercizi dopo ogni lezione
-        -Modifica e sperimenta con il codice per apprendere meglio
-        -In caso di dubbi, scrivi nei commenti del codice o usa 
+  ## 🎯 Suggerimenti per lo studio
+   -Procedi con ordine dalle lezioni base a quelle avanzate
+   -Completa sempre gli esercizi dopo ogni lezione
+   -Modifica e sperimenta con il codice per apprendere meglio
+   -In caso di dubbi, scrivi nei commenti del codice o usa 
         
 [Stack Overflow](https://stackoverflow.com/questions/tagged/c%23) 
    
