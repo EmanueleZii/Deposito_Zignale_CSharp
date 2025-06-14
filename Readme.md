@@ -1,4 +1,4 @@
-# 📘 Corso C# - Esercizi e Materiale
+## 📘 Corso C# - Esercizi e Materiale
 
 Benvenuto/a nella repository del Corso C#!
 Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e risorse utili per imparare a programmare in C#.
