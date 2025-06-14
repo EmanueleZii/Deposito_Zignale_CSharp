@@ -105,8 +105,8 @@ Conoscenze base di programmazione (opzionale)
    
 ## 🧠 Link alle Repository degli Esercizi di Gruppo e Individuali
 
-[Esercizio-1 Di Gruppo](https://github.com/EmanueleZii/Esercizio_Corso_Csharp)
-[Esercizio-2 Di Gruppo](https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-)
-[Esercizio-3 Di Gruppo](https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-)
-[Esercizio-4 Individuale](https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp)
+1. [Esercizio-1 Di Gruppo](https://github.com/EmanueleZii/Esercizio_Corso_Csharp)
+2. [Esercizio-2 Di Gruppo](https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-)
+3. [Esercizio-3 Di Gruppo](https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-)
+4. [Esercizio-4 Individuale](https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp)
  
