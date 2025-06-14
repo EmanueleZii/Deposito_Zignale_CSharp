@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <title>Corso C# - Esercizi e Materiale</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 2rem;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        ul {
-            margin-bottom: 1rem;
-        }
-        code, pre {
-            background: #f4f4f4;
-            border-radius: 4px;
-            padding: 0.5rem;
-            display: block;
-        }
-    </style>
-</head>
-<body>
-
     <h1>📘 Corso C# - Esercizi e Materiale</h1>
 
     <p>Benvenuto/a nella repository del <strong>Corso C#</strong>!<br>
@@ -52,9 +23,6 @@
 
     <h2>▶️ Come eseguire gli esercizi</h2>
     <ol>
-        <li>Clona la repository:
-            <pre><code>git clone https://github.com/tuo-username/nome-repo-csharp.git
-cd nome-repo-csharp</code></pre>
         </li>
         <li>Vai nella cartella dell'esercizio:</li>
         <li>Compila ed esegui con:
