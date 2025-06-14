@@ -12,18 +12,13 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
 - Acquisire familiarità con Visual Studio / Visual Studio Code
 - Prepararsi per progetti reali o colloqui tecnici
 
-## 📂 Struttura della Repository
-
-*(Inserisci qui la struttura delle cartelle se necessario)*
-
-
 ## 🛠️ Requisiti
-    -▶️ Come eseguire gli esercizi</h2>
+    -▶️ Come eseguire gli esercizi
     -Vai nella cartella dell'esercizio:
     -Compila ed esegui con:
             dotnet run
        
-
+## 📚 Risorse utili
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/) oppure [Visual Studio Code](https://code.visualstudio.com/)
