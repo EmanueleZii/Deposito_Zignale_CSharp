@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📘 Corso C# - Esercizi e Materiale
 
 Benvenuto/a nella repository del **Corso C#**!  
@@ -15,7 +16,17 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
 
 *(Inserisci qui la struttura delle cartelle se necessario)*
 
+<<<<<<< HEAD
 ## 🛠️ Requisiti
+    <h2>▶️ Come eseguire gli esercizi</h2>
+    <ol>
+        </li>
+        <li>Vai nella cartella dell'esercizio:</li>
+        <li>Compila ed esegui con:
+            <pre><code>dotnet run</code></pre>
+        </li>
+    </ol>
+
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/) oppure [Visual Studio Code](https://code.visualstudio.com/)
