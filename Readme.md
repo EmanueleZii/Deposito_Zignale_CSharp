@@ -97,16 +97,16 @@ Conoscenze base di programmazione (opzionale)
   Emanuele Zignale Junior Developer Studente Appassionato di C#
 
 ## 🔗 Link alle Altre Repository del Corso C#
-   -[Repository della verifica finale della settimana dedicata ai database] (https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp)
+   [Repository della verifica finale della settimana dedicata ai database] (https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp)
               
 ## 🕹️ Repository della Parte del Corso Dedicato a Unity
-   -[Repository Unity] (https://github.com/EmanueleZii/Corso_C-SharpUnity)
+   [Repository Unity] (https://github.com/EmanueleZii/Corso_C-SharpUnity)
               
    
 ## 🧠 Link alle Repository degli Esercizi di Gruppo e Individuali
 
--[Esercizio-1 Di Gruppo] (https://github.com/EmanueleZii/Esercizio_Corso_Csharp)
--[Esercizio-2 Di Gruppo] ( https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-)
--[Esercizio-3 Di Gruppo] (https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-)
--[Esercizio-4 Individuale] (https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp)
+[Esercizio-1 Di Gruppo] (https://github.com/EmanueleZii/Esercizio_Corso_Csharp)
+[Esercizio-2 Di Gruppo] ( https://github.com/EmanueleZii/Progetto2_Gruppo_ACE_C-)
+[Esercizio-3 Di Gruppo] (https://github.com/EmanueleZii/Progetto3_Gruppo_AAE_C-)
+[Esercizio-4 Individuale] (https://github.com/EmanueleZii/Esercizio_Finale_Mirko_CSharp)
  
