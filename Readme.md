@@ -1,92 +1,64 @@
-<h1>Corso C#</h1>
+  <h1>📘 Corso C# - Esercizi e Materiale</h1>
 
-<h2>Programma Didattico</h2>
+    <p>Benvenuto/a nella repository del <strong>Corso C#</strong>!<br>
+    Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e risorse utili per imparare a programmare in C#.</p>
 
-<h3>Introduzione e setup dell’ambiente di sviluppo</h3>
-<span>(Prima Settimana)</span>
+    <h2>📌 Obiettivi del Corso</h2>
+    <ul>
+        <li>Capire la sintassi di base del linguaggio C#</li>
+        <li>Imparare i concetti fondamentali della programmazione a oggetti (OOP)</li>
+        <li>Sviluppare piccole applicazioni console</li>
+        <li>Acquisire familiarità con Visual Studio / Visual Studio Code</li>
+        <li>Prepararsi per progetti reali o colloqui tecnici</li>
+    </ul>
+
+    <h2>📂 Struttura della Repository</h2>
+
+    <h2>🛠️ Requisiti</h2>
+    <ul>
+        <li><a href="https://dotnet.microsoft.com/download" target="_blank">.NET SDK</a></li>
+        <li><a href="https://visualstudio.microsoft.com/" target="_blank">Visual Studio</a> oppure <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+        <li>Conoscenze base di programmazione (opzionale)</li>
+    </ul>
+
+    <h2>▶️ Come eseguire gli esercizi</h2>
+    <ol>
+        <li>Clona la repository:
+            <pre><code>git clone https://github.com/tuo-username/nome-repo-csharp.git
+cd nome-repo-csharp</code></pre>
+        </li>
+        <li>Vai nella cartella dell'esercizio:
+        </li>
+        <li>Compila ed esegui con:
+            <pre><code>dotnet run</code></pre>
+        </li>
+    </ol>
+
+    <h2>🎯 Suggerimenti per lo studio</h2>
+    <ul>
+        <li>Procedi con ordine dalle lezioni base a quelle avanzate</li>
+        <li>Completa sempre gli esercizi dopo ogni lezione</li>
+        <li>Modifica e sperimenta con il codice per apprendere meglio</li>
+        <li>In caso di dubbi, scrivi nei commenti del codice o usa <a href="https://stackoverflow.com/questions/tagged/c%23" target="_blank">Stack Overflow</a></li>
+    </ul>
+
+    <h2>📚 Risorse utili</h2>
+    <ul>
+        <li><a href="https://learn.microsoft.com/it-it/dotnet/csharp/" target="_blank">Documentazione ufficiale C#</a></li>
+        <li><a href="https://dotnetfiddle.net/" target="_blank">DotNet Fiddle</a> (per testare codice online)</li>
+        <li><a href="https://www.w3schools.com/cs/" target="_blank">W3Schools C# Tutorial</a></li>
+    </ul>
+
+    <h2>✍️ Autore</h2>
+    <p><strong>Emanuele Zignale</strong><br>Junior Developer &amp; Studente Appassionato di C#</p>
+
+    
+
+<h1>🔗 Link alle Altre Repository del Corso C#</h1>
 <ul>
-  <li>Installazione di .NET SDK e IDE (Visual Studio / Visual Studio Code / Rider)</li>
-  <li>Panoramica dei progetti C# (console, libreria, ecc.)</li>
-  <li>Struttura base di un programma C# (metodo Main, namespace, ecc.)</li>
-</ul>
-
-<h3>Fondamenti del linguaggio</h3>
-<span>(Prima Settimana)</span>
-<ul>
-  <li>Tipi di dati primitivi (int, double, bool, char, string)</li>
-  <li>Dichiarazione e inizializzazione delle variabili</li>
-  <li>Operatori (aritmetici, logici, di confronto, di assegnazione)</li>
-  <li>Conversioni implicite ed esplicite (casting)</li>
-</ul>
-
-<h3>Strutture di controllo</h3>
-<span>(Prima Settimana)</span>
-<ul>
-  <li>Strutture condizionali (if, else if, switch)</li>
-  <li>Cicli iterativi (for, while, do-while, foreach)</li>
-  <li>Buone pratiche sull’indentazione e sulla leggibilità del codice</li>
-</ul>
-
-<h3>Funzioni e metodi</h3>
-<span>(Prima Settimana)</span>
-<ul>
-  <li>Dichiarazione e definizione di metodi (return type, nome, parametri)</li>
-  <li>Parametri valore vs riferimento (ref, out)</li>
-  <li>Overloading dei metodi</li>
-  <li>Visibilità e ambiti delle variabili</li>
-</ul>
-
-<h3>Array e collezioni</h3>
-<span>(Seconda Settimana)</span>
-<ul>
-  <li>Array monodimensionali e multidimensionali</li>
-  <li>Liste (<code>List&lt;T&gt;</code>), code (<code>Queue&lt;T&gt;</code>), stack (<code>Stack&lt;T&gt;</code>), dizionari (<code>Dictionary&lt;TKey, TValue&gt;</code>)</li>
-  <li>Metodi e proprietà più comuni per manipolare collezioni</li>
-  <li>Introduzione a LINQ (concetti di base)</li>
-</ul>
-
-<h3>Programmazione Orientata agli Oggetti (OOP) – Parte I</h3>
-<span>(Seconda Settimana)</span>
-<ul>
-  <li>Classi e oggetti: definizione e istanziazione</li>
-  <li>Costruttori (predefiniti e personalizzati)</li>
-  <li>Incapsulamento: campi (fields), proprietà (properties), metodi (methods)</li>
-  <li>Modificatori di accesso (public, private, protected, internal)</li>
-</ul>
-
-<h3>Programmazione Orientata agli Oggetti (OOP) – Parte II</h3>
-<span>(Seconda Settimana)</span>
-<ul>
-  <li>Ereditarietà: classi base e classi derivate, uso di <code>base</code></li>
-  <li>Polimorfismo: metodi <code>virtual</code>, <code>override</code>, <code>abstract</code> e <code>sealed</code></li>
-  <li>Interfacce e implementazioni multiple</li>
-  <li>Classi e metodi generici (introduzione)</li>
-</ul>
-
-<h3>Introduzione ai design pattern</h3>
-<span>(Terza Settimana)</span>
-<ul>
-  <li>Cos’è un design pattern</li>
-  <li>Design pattern nella pratica</li>
-</ul>
-
-<h3>Argomenti avanzati e introduzione a progetti più complessi</h3>
-<span>(Seconda Settimana)</span>
-<ul>
-  <li>Gestione delle eccezioni (<code>try</code>, <code>catch</code>, <code>finally</code>, <code>throw</code>)</li>
-  <li>Lettura/scrittura di file di testo, gestione di stream</li>
-  <li>Threading e programmazione asincrona di base (<code>async</code> e <code>await</code>)</li>
-  <li>Cenni su design pattern e best practice (Dependency Injection, SOLID, ecc.)</li>
-</ul>
-
-<h3>Unity e Interfaccia grafica</h3>
-<span>(Quarta Settimana)</span>
-<ul>
-  <li>Introduzione e configurazione Unity</li>
-  <li>Integrazione di modelli 3D</li>
-  <li>UI e UX con C#</li>
-  <li>Gestione degli script in Unity</li>
-  <li>Project work finale</li>
+<li>
+  <a href="https://github.com/EmanueleZii/VerificaFineSettimanaDBCorsoCSharp">Repository della verificia finale della settimana dedicata ai database </a>
+</li>
 </ul>
 
 <h1>Repository della parte del corso dedicato a Unity </h1>
