@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 📘 Corso C# - Esercizi e Materiale
 
 Benvenuto/a nella repository del **Corso C#**!  
@@ -16,7 +16,7 @@ Qui troverai tutto il materiale pratico del corso: esercizi, progetti, appunti e
 
 *(Inserisci qui la struttura delle cartelle se necessario)*
 
-<<<<<<< HEAD
+
 ## 🛠️ Requisiti
     <h2>▶️ Come eseguire gli esercizi</h2>
     <ol>
