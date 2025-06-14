@@ -13,10 +13,11 @@
 - Prepararsi per progetti reali o colloqui tecnici
 
 ## 🛠️ Requisiti
-    -▶️ Come eseguire gli esercizi
-    -Vai nella cartella dell'esercizio:
-    -Compila ed esegui con:
-            dotnet run
+
+ ▶️ Come eseguire gli esercizi
+    VAi nella cartella dell' esercizio:
+     Compila ed esegui con:
+     dotnet run
        
 ## 📚 Risorse utili
 
@@ -27,13 +28,11 @@
 ## ▶️ Come eseguire gli esercizi
 
 1. Clona la repository:
-
-   ```bash
    git clone https://github.com/tuo-username/nome-repo-csharp.git
    cd nome-repo-csharp
-    2.    Vai nella cartella dell’esercizio.
-    3.    Compila ed esegui con:
-            dotnet run
+2.    Vai nella cartella dell’esercizio.
+3.    Compila ed esegui con:
+       dotnet run
             
             
 🎯 Suggerimenti per lo studio
@@ -66,7 +65,6 @@ Junior Developer & Studente Appassionato di C#
     •    Esercizio-2 di Gruppo
     •    Esercizio-3 di Gruppo
     •    Esercizio-4 Individuale
->>>>>>> c2ace908cbfe460fecea0be2eb2c9c3e72150345
     
         -Capire la sintassi di base del linguaggio C#
         -Imparare i concetti fondamentali della programmazione a oggetti (OOP)
