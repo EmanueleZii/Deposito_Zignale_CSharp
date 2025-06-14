@@ -42,9 +42,9 @@ Conoscenze base di programmazione (opzionale)
    •    In caso di dubbi, scrivi nei commenti del codice o usa Stack Overflow
 
 ## 📚 Risorse utili
-    •    Documentazione ufficiale C#
-    •    DotNet Fiddle – per testare codice online
-    •    W3Schools C# Tutorial
+   •    Documentazione ufficiale C#
+   •    DotNet Fiddle – per testare codice online
+   •    W3Schools C# Tutorial
 
 ## ✍️ Autore
 
