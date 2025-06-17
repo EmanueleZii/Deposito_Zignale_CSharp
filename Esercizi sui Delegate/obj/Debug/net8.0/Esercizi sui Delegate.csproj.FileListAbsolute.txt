@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/bin/Debug/net8.0/Esercizi sui Delegate
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/bin/Debug/net8.0/Esercizi sui Delegate.deps.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/bin/Debug/net8.0/Esercizi sui Delegate.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/bin/Debug/net8.0/Esercizi sui Delegate.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/bin/Debug/net8.0/Esercizi sui Delegate.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/refint/Esercizi sui Delegate.dll
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.pdb
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/Esercizi sui Delegate.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/CorsoCSharp/Esercizi sui Delegate/obj/Debug/net8.0/ref/Esercizi sui Delegate.dll
